@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href ="../../TAN-2018/schemas/catalog.tan.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href ="../../TAN-2018/schemas/catalog.tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<collection stable="true">
+   <doc href="ar.cat.eng.1926.edghill.log-after-grc.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs"
+        root="TAN-T"/>
+   <doc href="ar.cat.eng.1926.edghill.scr-after-grc.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:model-object-refs"
+        root="TAN-T"/>
+   <doc href="ar.cat.fra.1844.saint-hilaire.log-after-grc.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello"
+        root="TAN-T"/>
+   <doc href="ar.cat.fra.1844.saint-hilaire.log-native.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs"
+        root="TAN-T"/>
+   <doc href="ar.cat.fra.1844.saint-hilaire.scr-after-grc.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:object-refs-after-minio-paluello"
+        root="TAN-T"/>
+   <doc href="ar.cat.grc.1949.minio-paluello.log-native.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs"
+        root="TAN-T"/>
+   <doc href="ar.cat.grc.1949.minio-paluello.scr-native.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs"
+        root="TAN-T"/>
+   <doc href="ar.cat.lat.1961.minio-paluello.log-after-grc.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc"
+        root="TAN-T"/>
+   <doc href="ar.cat.lat.1961.minio-paluello.scr-after-grc.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc"
+        root="TAN-T"/>
+   <doc href="ar.cat.lat.1961.minio-paluello.scr-native.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:object-refs"
+        root="TAN-T"/>
+   <doc href="TAN-key/aristotle.TAN-key.xml"
+        id="tag:kalvesmaki.com,2014:tan-key:evagrius"
+        root="TAN-key"/>
+</collection>
