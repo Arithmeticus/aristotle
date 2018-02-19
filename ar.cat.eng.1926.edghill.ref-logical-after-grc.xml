@@ -25,15 +25,15 @@
       <see-also relationship="model">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.log-native.xml" when-accessed="2018-01-22-05:00"/></see-also>
+         <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml" when-accessed="2018-01-22-05:00"/></see-also>
       <!--<see-also relationship="alt">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.scr-native.xml" when-accessed="2018-01-23-05:00"/></see-also>-->
+         <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml" when-accessed="2018-01-23-05:00"/></see-also>-->
       <!--<see-also relationship="ade">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:model-object-refs</IRI>
          <name>Categories, Aristotle, English translation by E. M. Edghill</name>
-         <location href="ar.cat.eng.1926.edghill.scr-after-grc.xml" when-accessed="2018-01-23-05:00"/></see-also>-->
+         <location href="ar.cat.eng.1926.edghill.ref-scriptum-after-grc.xml" when-accessed="2018-01-23-05:00"/></see-also>-->
       <!--<see-also relationship="prev">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs</IRI>
          <name>Categories, Aristotle, English translation by E. M. Edghill</name>
@@ -64,7 +64,7 @@
       <change when="2018-01-19-05:00" who="kalvesmaki">Copied from official examples to begin new Aristotle collection.</change>
       <change when="2016-06-22T08:04:25.003-04:00" who="kalvesmaki">Reformatted according to first
          model found. Backup made at
-         file:/C:/Users/jdkalv/Dropbox/TAN/library/TAN-2018/examples/ar.cat.eng.1926.edghill.log-201606220804250030400.xml.</change>
+         file:/C:/Users/jdkalv/Dropbox/TAN/library/TAN-2018/examples/ar.cat.eng.1926.edghill.ref-logical-201606220804250030400.xml.</change>
       <change when="2016-01-26-04:00" who="kalvesmaki">Started new file.</change>
       
    </head>
@@ -96,8 +96,6 @@
                   derives his name from the word 'grammar', and the courageous man from the word
                   'courage'.</div>
             </div>
-            <!-- testing -->
-            <div type="s" n="4">This is a sentence that tests whether it's flagged as a defective div.</div>
          </div>
       </div>
       <div type="ch" n="2">

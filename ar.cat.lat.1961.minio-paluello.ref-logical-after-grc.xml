@@ -27,14 +27,14 @@
       <see-also relationship="model">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.log-native.xml"
+         <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
             when-accessed="2018-01-27-05:00"/>
       </see-also>
       <see-also relationship="ade">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
          Minio-Paluello</name>
-         <location href="ar.cat.lat.1961.minio-paluello.scr-native.xml"
+         <location href="ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml"
                    when-accessed="2018-01-27-05:00"/>
       </see-also>
       <definitions>
@@ -68,8 +68,8 @@
          Aristotle collection.</change>
       <change when="2015-07-09-04:00" who="kalvesmaki">Started new file.</change>
 
-      <change who="xslt1" when="2018-01-27T20:30:48.149-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.scr-native.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.log-native.xml</change>
-      <change who="xslt1" when="2018-01-27T21:00:58.213-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.log-after-grc-a.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.log-native.xml</change>
+      <change who="xslt1" when="2018-01-27T20:30:48.149-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
+      <change who="xslt1" when="2018-01-27T21:00:58.213-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.ref-logical-after-grc-a.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
       </head>
     <body xml:lang="lat">
       <div type="ti" n="ti">LIBER ARISTOTELIS DE DECEM PRAEDICAMENTIS </div>
@@ -687,19 +687,19 @@
             <div type="s" n="3">
                <div type="ic" n="1">Igitur de his generibus quae proposuimus sufficienter dictum
                   est. </div>
-            </div>
-         </div>
-      </div>
-      <div type="ch" n="10">
-         <div type="ti" n="ti">DE OPPOSITIS. - </div>
-      </div>
-      <div type="ch" n="9">
-         <div type="par" n="7">
-            <div type="s" n="3">
+               <div type="ti" n="ti">DE OPPOSITIS. - </div>
                <div type="ic" n="2">Quotiens solent opponi, dicendum est. </div>
             </div>
          </div>
       </div>
+      <!--<div type="ch" n="10">
+      </div>-->
+      <!--<div type="ch" n="9">
+         <div type="par" n="7">
+            <div type="s" n="3">
+            </div>
+         </div>
+      </div>-->
       <div type="ch" n="10">
          <div type="par" n="1">
             <div type="s" n="1">Dicitur autem alterum alteri opponi quadrupliciter, aut ut ad

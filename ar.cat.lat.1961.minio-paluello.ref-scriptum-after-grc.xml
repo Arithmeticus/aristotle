@@ -4,7 +4,7 @@
 <!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TAN-T xmlns="tag:textalign.net,2015:ns"
-       id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc"
+       id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:scriptum-refs-after-grc"
        TAN-version="2018">
    <head>
       <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
@@ -27,32 +27,27 @@
       <see-also relationship="model">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.scr-native.xml"
-                   when-accessed="2018-01-27-05:00"/>
+         <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
+                   when-accessed="2018-02-13-05:00"/>
       </see-also>
       <see-also relationship="ade">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc</IRI>
          <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
          Minio-Paluello</name>
-         <location href="ar.cat.lat.1961.minio-paluello.log-after-grc.xml"
-                   when-accessed="2018-01-27-05:00"/>
+         <location href="ar.cat.lat.1961.minio-paluello.ref-logical-after-grc.xml"
+                   when-accessed="2018-02-13-05:00"/>
       </see-also>
       <see-also relationship="ade">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
          Minio-Paluello</name>
-         <location href="ar.cat.lat.1961.minio-paluello.scr-native.xml"
+         <location href="ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml"
                    when-accessed="2018-01-27-05:00"/>
       </see-also>
       <definitions>
          <div-type xml:id="p" which="page"/>
          <div-type which="column (page)" xml:id="c"/>
          <div-type which="line (physical)" xml:id="l"/>
-         
-         
-         
-         
-         
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:remodel-via-tan-t</IRI>
             <name>Stylesheet to create a TAN file.</name>
@@ -67,12 +62,6 @@
          <relationship xml:id="alt" which="different work version"/>
          <relationship which="old version" xml:id="prev"/>
       </definitions>
-      
-      
-      
-      <resp who="xslt1" roles="stylesheet1"/>
-      
-      <resp who="xslt1" roles="stylesheet1"/>
       <resp who="xslt1" roles="stylesheet1"/>
       <resp roles="editor" who="kalvesmaki"/>
 
@@ -82,11 +71,13 @@
          Aristotle collection.</change>
       <change when="2015-07-09-04:00" who="kalvesmaki">Started new file.</change>
 
-      <change who="xslt1" when="2018-01-27T20:30:48.149-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.scr-native.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.log-native.xml</change>
-      <change who="xslt1" when="2018-01-27T21:00:58.213-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.log-after-grc-a.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.log-native.xml</change>
-      <change who="xslt1" when="2018-01-27T22:46:47.452-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.log-after-grc.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.scr-native.xml</change>
+      <change who="xslt1" when="2018-01-27T20:30:48.149-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
+      <change who="xslt1" when="2018-01-27T21:00:58.213-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.ref-logical-after-grc-a.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
+      <change who="xslt1" when="2018-02-13T20:38:51.191-05:00">Input from file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.ref-logical-after-grc.xml proporitionally inserted into template at file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml</change>
       </head>
-    <body xml:lang="lat">LIBER ARISTOTELIS DE DECEM PRAEDICAMENTIS <div type="p" n="1">
+    <body xml:lang="lat">
+      <div type="p" n="1">LIBER ARISTOTELIS DE DECEM PRAEDICAMENTIS </div>
+      <div type="p" n="1">
          <div type="c" n="a">
             <div type="l" n="1">Aequivoca dicuntur quorum nomen solum commune est, secundum </div>
             <div type="l" n="2">nomen vero substantiae ratio diversa, ut animal homo et </div>
@@ -944,192 +935,192 @@
             <div type="l" n="13">de his ultra dicitur quam quod in principia dictum est, quod habere </div>
             <div type="l" n="14">significat calciatum esse vel armatum, ubi vero in Lycio, vel alia quaecumque </div>
             <div type="l" n="15">de his dicta sunt. Igitur de his generibus quae proposuimus sufficienter dictum </div>
-            <div type="l" n="16">est. </div>
-            <div type="l" n="17"/>
-            <div type="l" n="18"/>
-            <div type="l" n="19"/>
-            <div type="l" n="20"/>
-            <div type="l" n="21"/>
-            <div type="l" n="22"/>
-            <div type="l" n="23"/>
-            <div type="l" n="24"/>
-            <div type="l" n="25"/>
-            <div type="l" n="26"/>
-            <div type="l" n="27"/>
-            <div type="l" n="28"/>
-            <div type="l" n="29"/>
-            <div type="l" n="30"/>
-            <div type="l" n="31"/>
-            <div type="l" n="32"/>
-            <div type="l" n="33"/>
-            <div type="l" n="34"/>
-            <div type="l" n="35"/>
-            <div type="l" n="36"/>
-            <div type="l" n="37"/>
-            <div type="l" n="38"/>
+            <div type="l" n="16">est. DE OPPOSITIS. - Quotiens solent opponi, dicendum est. </div>
+            <div type="l" n="17">Dicitur autem alterum alteri opponi quadrupliciter, aut ut </div>
+            <div type="l" n="18">ad aliquid, aut ut contraria, aut ut habitus et </div>
+            <div type="l" n="19">privatio, aut ut affirmatio et negatio. Opponitur autem unumquodque </div>
+            <div type="l" n="20">istorum, ut sit figuratim dicere, ut relativa ut </div>
+            <div type="l" n="21">duplum medio, ut contraria ut bonum malo, ut </div>
+            <div type="l" n="22">secundum privationem et habitum ut caecitas et visus, </div>
+            <div type="l" n="23">ut affirmatio et negatio ut sedet- non sedet. </div>
+            <div type="l" n="24">Quaecumque igitur ut relativa opponuntur, ea </div>
+            <div type="l" n="25">ipsa quae sunt oppositorum dicuntur, aut quomodolibet </div>
+            <div type="l" n="26">aliter ad ea ; ut duplum medii, hoc ipsum quod est, </div>
+            <div type="l" n="27">dicitur duplum ; et scientia scibilis rei scientia </div>
+            <div type="l" n="28">ut ad aliquid opponitur, et dicitur scientia, hoc </div>
+            <div type="l" n="29">ipsum quod est, scibilis ; et scibile, hoc ipsum quod </div>
+            <div type="l" n="30">est, ad oppositum dicitur, scilicet scientiam (scibile enim </div>
+            <div type="l" n="31">aliqua scientia scibile dicitur). </div>
+            <div type="l" n="32">Quaecumque ergo opponuntur ut ad aliquid, ea ipsa quae sunt </div>
+            <div type="l" n="33">oppositorum vel alio quolibet modo ad se invicem dicuntur; </div>
+            <div type="l" n="34">illa vero quae ut contraria, ipsa quidem quae sunt </div>
+            <div type="l" n="35">nullo modo ac invicem dicuntur, contraria vero sibi invicem </div>
+            <div type="l" n="36">dicuntur; neque enim bonum mali dicitur bonum, sed contrarium ; </div>
+            <div type="l" n="37">nec album nigri album, sed contrarium. Quare differunt </div>
+            <div type="l" n="38">istae oppositiones invicem. Quaecumque vero contrariorum talia sunt </div>
          </div>
       </div>
       <div type="p" n="12">
          <div type="c" n="a">
-            <div type="l" n="1"/>
-            <div type="l" n="2"/>
-            <div type="l" n="3"/>
-            <div type="l" n="4"/>
-            <div type="l" n="5"/>
-            <div type="l" n="6"/>
-            <div type="l" n="7"/>
-            <div type="l" n="8"/>
-            <div type="l" n="9"/>
-            <div type="l" n="10"/>
-            <div type="l" n="11"/>
-            <div type="l" n="12"/>
-            <div type="l" n="13"/>
-            <div type="l" n="14"/>
-            <div type="l" n="15"/>
-            <div type="l" n="16"/>
-            <div type="l" n="17"/>
-            <div type="l" n="18"/>
-            <div type="l" n="19"/>
-            <div type="l" n="20"/>
-            <div type="l" n="21"/>
-            <div type="l" n="22"/>
-            <div type="l" n="23"/>
-            <div type="l" n="24"/>
-            <div type="l" n="25"/>
-            <div type="l" n="26"/>
-            <div type="l" n="27"/>
-            <div type="l" n="28"/>
-            <div type="l" n="29"/>
-            <div type="l" n="30"/>
-            <div type="l" n="31"/>
-            <div type="l" n="32"/>
-            <div type="l" n="33"/>
-            <div type="l" n="34"/>
-            <div type="l" n="35"/>
-            <div type="l" n="36"/>
-            <div type="l" n="37"/>
-            <div type="l" n="38"/>
-            <div type="l" n="39"/>
-            <div type="l" n="40"/>
-            <div type="l" n="41"/>
+            <div type="l" n="1">ut in quibus nata sunt fieri et de quibus praedicantur, </div>
+            <div type="l" n="2">necessarium sit alterum ipsorum inesse, nihil eorum medium est (quorum </div>
+            <div type="l" n="3">autem non est necessarium alterum inesse, horum omnium est aliquid </div>
+            <div type="l" n="4">medium) ; ut aegritudo et sanitas in corpore animalis </div>
+            <div type="l" n="5">nata est fieri, et necesse est alterum ipsorum inesse </div>
+            <div type="l" n="6">animalis corpori, aut aegritudinem aut sanitatem; et par quidem et </div>
+            <div type="l" n="7">impar de numero praedicatur, et necesse est horum alterum numero </div>
+            <div type="l" n="8">inesse, vel par vel impar ; et non est horum </div>
+            <div type="l" n="9">aliquid medium, neque aegritudinis neque sanitatis, neque imparis neque paris. </div>
+            <div type="l" n="10">Quorum autem non est necessarium alterum inesse, horum </div>
+            <div type="l" n="11">est aliquid medium; ut album et nigrum in corpore natum </div>
+            <div type="l" n="12">est fieri, et non est necesse alterum eorum inesse corpori </div>
+            <div type="l" n="13">(non enim omne corpus vel album vel nigrum est) ; </div>
+            <div type="l" n="14">et probum et improbum dicitur quidem de homine et </div>
+            <div type="l" n="15">de aliis pluribus, non est autem necesse alterum inesse </div>
+            <div type="l" n="16">his de quibus praedicatur; non enim omnia aut proba sunt </div>
+            <div type="l" n="17">aut improba. Et est aliquid horum medium, ut albi </div>
+            <div type="l" n="18">et nigri venetum vel pallidum vel quicumque alii </div>
+            <div type="l" n="19">colores sunt, foedi vero et pulchri quod neque pulchrum est </div>
+            <div type="l" n="20">neque foedum. In aliquibus quidem medietatibus posita sunt </div>
+            <div type="l" n="21">nomina, ut albi et nigri venetum et pallidum </div>
+            <div type="l" n="22">; in aliquibus vero non est nomine </div>
+            <div type="l" n="23">assignare medietatem, utriusque vero negatione definitur, ut </div>
+            <div type="l" n="24">nec bonum nec malum, nec iustum </div>
+            <div type="l" n="25">nec iniustum. </div>
+            <div type="l" n="26">Privatio vero et habitus dicuntur quidem circa idem aliquid, </div>
+            <div type="l" n="27">ut visio et caecitas circa oculum ; universaliter autem dicere </div>
+            <div type="l" n="28">est in quo nascitur habitus fieri, circa hoc dicitur </div>
+            <div type="l" n="29">utrumque eorum. Privari vero tunc dicimus unumquodque habitus susceptibilium, quando in </div>
+            <div type="l" n="30">quo natum est inesse vel quando natum est habere </div>
+            <div type="l" n="31">nullo modo habet ; edentulum enim dicimus non qui non </div>
+            <div type="l" n="32">habet dentes, nec caecum qui non habet visionem, sed qui, quando </div>
+            <div type="l" n="33">contigit habere, non habet (multa enim ex nativitate neque dentes </div>
+            <div type="l" n="34">habent neque visionem, sed non dicuntur edentula neque caeca). </div>
+            <div type="l" n="35">Privari vero et habere habitum non est habitus et privatio </div>
+            <div type="l" n="36">; habitus enim est visus, privatio vero caecitas, </div>
+            <div type="l" n="37">habere autem visum non est visus, nec caecum </div>
+            <div type="l" n="38">esse caecitas (privatio enim quaedam est caecitas, caecum </div>
+            <div type="l" n="39">vero esse privari, non privatio est). Nam si idem </div>
+            <div type="l" n="40">esset caecitas et caecum esse, utraque de eodem praedicarentur; </div>
+            <div type="l" n="41">nunc vero minime, sed caecus quidem dicitur homo, </div>
          </div>
          <div type="c" n="b">
-            <div type="l" n="1"/>
-            <div type="l" n="2"/>
-            <div type="l" n="3"/>
-            <div type="l" n="4"/>
-            <div type="l" n="5"/>
-            <div type="l" n="6"/>
-            <div type="l" n="7"/>
-            <div type="l" n="8"/>
-            <div type="l" n="10"/>
-            <div type="l" n="11"/>
-            <div type="l" n="12"/>
-            <div type="l" n="13"/>
-            <div type="l" n="15"/>
-            <div type="l" n="16"/>
-            <div type="l" n="17"/>
-            <div type="l" n="18"/>
-            <div type="l" n="19"/>
-            <div type="l" n="20"/>
-            <div type="l" n="21"/>
-            <div type="l" n="22"/>
-            <div type="l" n="23"/>
-            <div type="l" n="24"/>
-            <div type="l" n="25"/>
-            <div type="l" n="26"/>
-            <div type="l" n="27"/>
-            <div type="l" n="28"/>
-            <div type="l" n="29"/>
-            <div type="l" n="30"/>
-            <div type="l" n="31"/>
-            <div type="l" n="32"/>
-            <div type="l" n="33"/>
-            <div type="l" n="34"/>
-            <div type="l" n="35"/>
-            <div type="l" n="36"/>
-            <div type="l" n="37"/>
-            <div type="l" n="38"/>
-            <div type="l" n="39"/>
-            <div type="l" n="40"/>
-            <div type="l" n="41"/>
+            <div type="l" n="1">caecitas vero nullo modo dicitur. Opponi quidem </div>
+            <div type="l" n="2">et ista videntur, privari scilicet et </div>
+            <div type="l" n="3">habere habitum, quemadmodum privatio et </div>
+            <div type="l" n="4">habitus; idem enim modus est oppositionis; </div>
+            <div type="l" n="5">( ... ). Non est autem nec quod sub a:ffirmatione </div>
+            <div type="l" n="6">vel negatione est negatio vel a:ffirmatio ; a:ffirmatio enim oratio </div>
+            <div type="l" n="7">est a:ffirmativa et negatio oratio negativa, eorum </div>
+            <div type="l" n="8">vero quae sunt sub a:ffirmatione vel negatione nihil </div>
+            <div type="l" n="10">est oratio. Dicuntur autem et ista sibi opponi ut affirmatio </div>
+            <div type="l" n="11">et negatio ; nam etiam in his modus </div>
+            <div type="l" n="12">oppositionis idem est ; quemadmodum enim a:ffirmatio ad </div>
+            <div type="l" n="13">negationem opponitur, ut sedet -non sedet, sic res </div>
+            <div type="l" n="15">quae sub utrisque est sibi opponitur, sedere et </div>
+            <div type="l" n="16">non sedere. Quoniam autem privatio et habitus non sic </div>
+            <div type="l" n="17">opponuntur ut ad aliquid, manifestum est; neque enim dicitur </div>
+            <div type="l" n="18">hoc ipsum quod est oppositi; visus enim non est </div>
+            <div type="l" n="19">caecitatis visus, nec alio ullo modo ad ipsum dicitur </div>
+            <div type="l" n="20">; similiter autem nec caecitas dicitur caecitas visus, </div>
+            <div type="l" n="21">sed privatio visus caecitas dicitur ( ... ). Amplius </div>
+            <div type="l" n="22">omnia quaecumque ad aliquid dicuntur conversim dicuntur, quare etiam </div>
+            <div type="l" n="23">caecitas, si esset eorum quae sunt ad aliquid, converteretur illud </div>
+            <div type="l" n="24">ad quod dicitur ; sed non convertuntur ; neque enim </div>
+            <div type="l" n="25">dicitur visus caecitatis. </div>
+            <div type="l" n="26">Quoniam autem neque ut contraria opponuntur ea quae secundum </div>
+            <div type="l" n="27">privationem et habitum dicuntur, ex his manifestum est. Quorum enim </div>
+            <div type="l" n="28">contrariorum nihil est medium, necesse est, in quibus nata sunt </div>
+            <div type="l" n="29">fieri aut de quibus praedicari, alterum ipsorum inesse semper; horum </div>
+            <div type="l" n="30">enim nihil erat medium, quorum necesse erat alterum inesse </div>
+            <div type="l" n="31">eorum susceptibili, ut in aegritudine et sanitate et impari atque </div>
+            <div type="l" n="32">pari. Quorum autem est aliquid medium numquam necesse est </div>
+            <div type="l" n="33">omni inesse alterum; nam neque album aut nigrum necesse </div>
+            <div type="l" n="34">est omne esse eorum susceptibili, nec frigidum nec calidum </div>
+            <div type="l" n="35">(nihil enim prohibet aliquam ipsorum inesse medietatem) ; </div>
+            <div type="l" n="36">erat etiam istorum medietas, quorum non necesse esset </div>
+            <div type="l" n="37">alterum inesse eorum susceptibili, nisi forte aliquibus naturaliter </div>
+            <div type="l" n="38">contigerit unum ipsorum inesse, ut igni calidum esse </div>
+            <div type="l" n="39">et nivi album (in his autem necesse est definite unum ipsorum inesse, </div>
+            <div type="l" n="40">et non hoc aut illud ; neque enim potest ignis esse </div>
+            <div type="l" n="41">frigidus nec nix esse nigra) ; quare non necesse </div>
          </div>
       </div>
       <div type="p" n="13">
          <div type="c" n="a">
-            <div type="l" n="1"/>
-            <div type="l" n="2"/>
-            <div type="l" n="3"/>
-            <div type="l" n="4"/>
-            <div type="l" n="5"/>
-            <div type="l" n="6"/>
-            <div type="l" n="7"/>
-            <div type="l" n="8"/>
-            <div type="l" n="9"/>
-            <div type="l" n="10"/>
-            <div type="l" n="11"/>
-            <div type="l" n="12"/>
-            <div type="l" n="13"/>
-            <div type="l" n="14"/>
-            <div type="l" n="15"/>
-            <div type="l" n="16"/>
-            <div type="l" n="17"/>
-            <div type="l" n="18"/>
-            <div type="l" n="20"/>
-            <div type="l" n="21"/>
-            <div type="l" n="22"/>
-            <div type="l" n="23"/>
-            <div type="l" n="24"/>
-            <div type="l" n="25"/>
-            <div type="l" n="26"/>
-            <div type="l" n="27"/>
-            <div type="l" n="28"/>
-            <div type="l" n="29"/>
-            <div type="l" n="30"/>
-            <div type="l" n="31"/>
-            <div type="l" n="32"/>
-            <div type="l" n="33"/>
-            <div type="l" n="34"/>
-            <div type="l" n="35"/>
-            <div type="l" n="36"/>
-            <div type="l" n="37"/>
+            <div type="l" n="1">est omnibus eorum susceptibilibus alterum horum inesse, sed solis his </div>
+            <div type="l" n="2">quibus naturaliter unum inest, et his definite unum, non autem </div>
+            <div type="l" n="3">hoc aut illud. In privatione vero et habitu </div>
+            <div type="l" n="4">neutrum verum est eorum quae dicta sunt, </div>
+            <div type="l" n="5">neque enim semper eorum susceptibili necesse </div>
+            <div type="l" n="6">est alterum ipsorum inesse ; quod enim </div>
+            <div type="l" n="7">nondum natum est habere visum neque caecum </div>
+            <div type="l" n="8">neque visum habere dicitur, ( ... ) </div>
+            <div type="l" n="9">habens visum dicitur; et horum non definite </div>
+            <div type="l" n="10">alterum, sed aut hoc aut illud (neque </div>
+            <div type="l" n="11">enim necesse est aut caecum aut habentem visum </div>
+            <div type="l" n="12">esse, sed aut hoc aut illud) ; in </div>
+            <div type="l" n="13">contrariis vero, quorum est medietas, numquam necesse </div>
+            <div type="l" n="14">est omni alterum inesse, sed aliquibus, </div>
+            <div type="l" n="15">et his definite unum. Quare manifestum est quoniam secundum </div>
+            <div type="l" n="16">neutrum modum quemadmodum contraria opponuntur [ita sibi sunt] ea quae sunt secundum </div>
+            <div type="l" n="17">privationem et habitum opposita. Amplius in contrariis, cum sit eorum </div>
+            <div type="l" n="18">susceptibile, potest fieri in alterna mutatio, nisi cui naturaliter </div>
+            <div type="l" n="20">unum insit, ut igni calido esse ; quod enim sanum </div>
+            <div type="l" n="21">est potest aegrescere, et album nigrum fieri, et frigidum </div>
+            <div type="l" n="22">calidum, et ex probo improbum et ex improbo probum </div>
+            <div type="l" n="23">fieri potest (improbus enim in meliorem consuetudinem sermonemque perductus </div>
+            <div type="l" n="24">vel parum sese dabit in melius; sin vero </div>
+            <div type="l" n="25">vel semel parvam intentionem sumat, manifestum est quoniam </div>
+            <div type="l" n="26">aut perfectissime permutetur aut magnam sumat intentionem </div>
+            <div type="l" n="27">; semper enim mobilior ad virtutem fit, si </div>
+            <div type="l" n="28">quamlibet a principio sumpserit intentionem, quare erit possibile </div>
+            <div type="l" n="29">maiorem illum intentionem sumere ; et hoc </div>
+            <div type="l" n="30">saepius factum perfecte in contrariam habitudinem consistere, nisi </div>
+            <div type="l" n="31">tempore prohibeatur). In privatione vero et habitu impossibile </div>
+            <div type="l" n="32">est ad invicem fieri mutationem ; ab habitu enim </div>
+            <div type="l" n="33">ad privationem fit permutatio, a privatione vero </div>
+            <div type="l" n="34">ad habitum impossibile est; neque enim factus aliquis </div>
+            <div type="l" n="35">caecus rursus vidit, nec calvus rursus crinitus factus est, </div>
+            <div type="l" n="36">nec edentulus dentes creavit. </div>
+            <div type="l" n="37">Quaecumque vero ut affirmatio et negatio opponuntur, manifestum </div>
          </div>
          <div type="c" n="b">
-            <div type="l" n="1"/>
-            <div type="l" n="2"/>
-            <div type="l" n="3"/>
-            <div type="l" n="4"/>
-            <div type="l" n="5"/>
-            <div type="l" n="6"/>
-            <div type="l" n="7"/>
-            <div type="l" n="8"/>
-            <div type="l" n="9"/>
-            <div type="l" n="10"/>
-            <div type="l" n="11"/>
-            <div type="l" n="12"/>
-            <div type="l" n="13"/>
-            <div type="l" n="14"/>
-            <div type="l" n="15"/>
-            <div type="l" n="16"/>
-            <div type="l" n="17"/>
-            <div type="l" n="18"/>
-            <div type="l" n="19"/>
-            <div type="l" n="20"/>
-            <div type="l" n="21"/>
-            <div type="l" n="22"/>
-            <div type="l" n="23"/>
-            <div type="l" n="24"/>
-            <div type="l" n="25"/>
-            <div type="l" n="26"/>
-            <div type="l" n="27"/>
-            <div type="l" n="28"/>
-            <div type="l" n="29"/>
-            <div type="l" n="30"/>
-            <div type="l" n="31"/>
-            <div type="l" n="32"/>
-            <div type="l" n="33"/>
-            <div type="l" n="34"/>
-            <div type="l" n="35">DE OPPOSITIS. - Quotiens solent opponi, dicendum est. Dicitur autem alterum alteri opponi quadrupliciter, aut ut ad aliquid, aut ut contraria, aut ut habitus et privatio, aut ut affirmatio et negatio. Opponitur autem unumquodque istorum, ut sit figuratim dicere, ut relativa ut duplum medio, ut contraria ut bonum malo, ut secundum privationem et habitum ut caecitas et visus, ut affirmatio et negatio ut sedet- non sedet. Quaecumque igitur ut relativa opponuntur, ea ipsa quae sunt oppositorum dicuntur, aut quomodolibet aliter ad ea ; ut duplum medii, hoc ipsum quod est, dicitur duplum ; et scientia scibilis rei scientia ut ad aliquid opponitur, et dicitur scientia, hoc ipsum quod est, scibilis ; et scibile, hoc ipsum quod est, ad oppositum dicitur, scilicet scientiam (scibile enim aliqua scientia scibile dicitur). Quaecumque ergo opponuntur ut ad aliquid, ea ipsa quae sunt oppositorum vel alio quolibet modo ad se invicem dicuntur; illa vero quae ut contraria, ipsa quidem quae sunt nullo modo ac invicem dicuntur, contraria vero sibi invicem dicuntur; neque enim bonum mali dicitur bonum, sed contrarium ; nec album nigri album, sed contrarium. Quare differunt istae oppositiones invicem. Quaecumque vero contrariorum talia sunt ut in quibus nata sunt fieri et de quibus praedicantur, necessarium sit alterum ipsorum inesse, nihil eorum medium est (quorum autem non est necessarium alterum inesse, horum omnium est aliquid medium) ; ut aegritudo et sanitas in corpore animalis nata est fieri, et necesse est alterum ipsorum inesse animalis corpori, aut aegritudinem aut sanitatem; et par quidem et impar de numero praedicatur, et necesse est horum alterum numero inesse, vel par vel impar ; et non est horum aliquid medium, neque aegritudinis neque sanitatis, neque imparis neque paris. Quorum autem non est necessarium alterum inesse, horum est aliquid medium; ut album et nigrum in corpore natum est fieri, et non est necesse alterum eorum inesse corpori (non enim omne corpus vel album vel nigrum est) ; et probum et improbum dicitur quidem de homine et de aliis pluribus, non est autem necesse alterum inesse his de quibus praedicatur; non enim omnia aut proba sunt aut improba. Et est aliquid horum medium, ut albi et nigri venetum vel pallidum vel quicumque alii colores sunt, foedi vero et pulchri quod neque pulchrum est neque foedum. In aliquibus quidem medietatibus posita sunt nomina, ut albi et nigri venetum et pallidum ; in aliquibus vero non est nomine assignare medietatem, utriusque vero negatione definitur, ut nec bonum nec malum, nec iustum nec iniustum. Privatio vero et habitus dicuntur quidem circa idem aliquid, ut visio et caecitas circa oculum ; universaliter autem dicere est in quo nascitur habitus fieri, circa hoc dicitur utrumque eorum. Privari vero tunc dicimus unumquodque habitus susceptibilium, quando in quo natum est inesse vel quando natum est habere nullo modo habet ; edentulum enim dicimus non qui non habet dentes, nec caecum qui non habet visionem, sed qui, quando contigit habere, non habet (multa enim ex nativitate neque dentes habent neque visionem, sed non dicuntur edentula neque caeca). Privari vero et habere habitum non est habitus et privatio ; habitus enim est visus, privatio vero caecitas, habere autem visum non est visus, nec caecum esse caecitas (privatio enim quaedam est caecitas, caecum vero esse privari, non privatio est). Nam si idem esset caecitas et caecum esse, utraque de eodem praedicarentur; nunc vero minime, sed caecus quidem dicitur homo, caecitas vero nullo modo dicitur. Opponi quidem et ista videntur, privari scilicet et habere habitum, quemadmodum privatio et habitus; idem enim modus est oppositionis; ( ... ). Non est autem nec quod sub a:ffirmatione vel negatione est negatio vel a:ffirmatio ; a:ffirmatio enim oratio est a:ffirmativa et negatio oratio negativa, eorum vero quae sunt sub a:ffirmatione vel negatione nihil est oratio. Dicuntur autem et ista sibi opponi ut affirmatio et negatio ; nam etiam in his modus oppositionis idem est ; quemadmodum enim a:ffirmatio ad negationem opponitur, ut sedet -non sedet, sic res quae sub utrisque est sibi opponitur, sedere et non sedere. Quoniam autem privatio et habitus non sic opponuntur ut ad aliquid, manifestum est; neque enim dicitur hoc ipsum quod est oppositi; visus enim non est caecitatis visus, nec alio ullo modo ad ipsum dicitur ; similiter autem nec caecitas dicitur caecitas visus, sed privatio visus caecitas dicitur ( ... ). Amplius omnia quaecumque ad aliquid dicuntur conversim dicuntur, quare etiam caecitas, si esset eorum quae sunt ad aliquid, converteretur illud ad quod dicitur ; sed non convertuntur ; neque enim dicitur visus caecitatis. Quoniam autem neque ut contraria opponuntur ea quae secundum privationem et habitum dicuntur, ex his manifestum est. Quorum enim contrariorum nihil est medium, necesse est, in quibus nata sunt fieri aut de quibus praedicari, alterum ipsorum inesse semper; horum enim nihil erat medium, quorum necesse erat alterum inesse eorum susceptibili, ut in aegritudine et sanitate et impari atque pari. Quorum autem est aliquid medium numquam necesse est omni inesse alterum; nam neque album aut nigrum necesse est omne esse eorum susceptibili, nec frigidum nec calidum (nihil enim prohibet aliquam ipsorum inesse medietatem) ; erat etiam istorum medietas, quorum non necesse esset alterum inesse eorum susceptibili, nisi forte aliquibus naturaliter contigerit unum ipsorum inesse, ut igni calidum esse et nivi album (in his autem necesse est definite unum ipsorum inesse, et non hoc aut illud ; neque enim potest ignis esse frigidus nec nix esse nigra) ; quare non necesse est omnibus eorum susceptibilibus alterum horum inesse, sed solis his quibus naturaliter unum inest, et his definite unum, non autem hoc aut illud. In privatione vero et habitu neutrum verum est eorum quae dicta sunt, neque enim semper eorum susceptibili necesse est alterum ipsorum inesse ; quod enim nondum natum est habere visum neque caecum neque visum habere dicitur, ( ... ) habens visum dicitur; et horum non definite alterum, sed aut hoc aut illud (neque enim necesse est aut caecum aut habentem visum esse, sed aut hoc aut illud) ; in contrariis vero, quorum est medietas, numquam necesse est omni alterum inesse, sed aliquibus, et his definite unum. Quare manifestum est quoniam secundum neutrum modum quemadmodum contraria opponuntur [ita sibi sunt] ea quae sunt secundum privationem et habitum opposita. Amplius in contrariis, cum sit eorum susceptibile, potest fieri in alterna mutatio, nisi cui naturaliter unum insit, ut igni calido esse ; quod enim sanum est potest aegrescere, et album nigrum fieri, et frigidum calidum, et ex probo improbum et ex improbo probum fieri potest (improbus enim in meliorem consuetudinem sermonemque perductus vel parum sese dabit in melius; sin vero vel semel parvam intentionem sumat, manifestum est quoniam aut perfectissime permutetur aut magnam sumat intentionem ; semper enim mobilior ad virtutem fit, si quamlibet a principio sumpserit intentionem, quare erit possibile maiorem illum intentionem sumere ; et hoc saepius factum perfecte in contrariam habitudinem consistere, nisi tempore prohibeatur). In privatione vero et habitu impossibile est ad invicem fieri mutationem ; ab habitu enim ad privationem fit permutatio, a privatione vero ad habitum impossibile est; neque enim factus aliquis caecus rursus vidit, nec calvus rursus crinitus factus est, nec edentulus dentes creavit. Quaecumque vero ut affirmatio et negatio opponuntur, manifestum est quoniam secundum nullum modum eorum qui diet sunt opponuntur; in his enim solis necesse est hoc quidem esse verum illud vero falsum. Nam neque in contrariis necesse est semper alterum esse verum, alterum vero falsum, nec in relativis, neque in habitu et privatione ; ut sanitas et aegritudo contraria sunt, sed neutrum ipsorum neque verum neque falsum est; similiter autem et duplum et medium quae ut ad aliquid opponuntur, non est eorum alterum falsum alterum verum; nec vero ea quae secundum habitum et privationem sunt, ut visus et caecitas. Omnino autem nihil eorum quae secundum nullam complexionem dicuntur aut verum aut falsum est ; omnia autem quae diximus sine complexione dicuntur. At vero magis hoc videtur contingere in his quae secundum complexionem dicuntur (sanum enim esse Socraten et aegrotare Socraten contraria sunt), sed nec in his quoque necesse est semper alterum verum esse, alterum autem falsum; cum enim sit Socrates, est hoc quidem verum illud vero falsum, cum autem non sit, utraque falsa sunt; nam neque aegrotare neque sanum esse verum est cum ipse Socrates non sit omnino. In privatione vero, cum non sit, neutrum verum est, et cum sit, non semper alterum verum est; visum enim habere Socraten et caecum esse Socraten opponuntur ut habitus et privatio, et cum sit, non est necesse alterum verum esse vel falsum (quando enim non est natus ut habeat, utraque falsa sunt), cum autem non sit omnino Socrates, sic quoque utraque falsa sunt, et habere eum visum et eum esse caecum. In affirmatione vero vel negatione semper, vel si sit vel si non sit, alterum ipsorum verum, alterum falsum erit ; aegrotare enim Socraten et non aegrotare Socraten, cum sit idem ipse, manifestum est quoniam alterum eorum verum vel falsum est, cum non sit, similiter (namque aegrotum esse, cum non sit, falsum est, non aegrotare vero verum est). Quare in solis his erit semper alterum ipsorum verum esse vel falsum, quaecumque ut affirmatio et negatio opponuntur. </div>
+            <div type="l" n="1">est quoniam secundum nullum modum eorum qui diet sunt </div>
+            <div type="l" n="2">opponuntur; in his enim solis necesse est hoc quidem esse </div>
+            <div type="l" n="3">verum illud vero falsum. Nam neque in contrariis necesse est </div>
+            <div type="l" n="4">semper alterum esse verum, alterum vero falsum, nec in relativis, neque </div>
+            <div type="l" n="5">in habitu et privatione ; ut sanitas et aegritudo </div>
+            <div type="l" n="6">contraria sunt, sed neutrum ipsorum neque verum neque falsum </div>
+            <div type="l" n="7">est; similiter autem et duplum et medium quae ut ad aliquid </div>
+            <div type="l" n="8">opponuntur, non est eorum alterum falsum alterum verum; nec vero ea quae </div>
+            <div type="l" n="9">secundum habitum et privationem sunt, ut visus et caecitas. </div>
+            <div type="l" n="10">Omnino autem nihil eorum quae secundum nullam complexionem dicuntur </div>
+            <div type="l" n="11">aut verum aut falsum est ; omnia autem quae </div>
+            <div type="l" n="12">diximus sine complexione dicuntur. At vero magis </div>
+            <div type="l" n="13">hoc videtur contingere in his quae secundum complexionem dicuntur </div>
+            <div type="l" n="14">(sanum enim esse Socraten et aegrotare Socraten contraria sunt), </div>
+            <div type="l" n="15">sed nec in his quoque necesse est semper alterum </div>
+            <div type="l" n="16">verum esse, alterum autem falsum; cum enim sit Socrates, </div>
+            <div type="l" n="17">est hoc quidem verum illud vero falsum, cum autem non </div>
+            <div type="l" n="18">sit, utraque falsa sunt; nam neque aegrotare neque sanum </div>
+            <div type="l" n="19">esse verum est cum ipse Socrates non sit omnino. </div>
+            <div type="l" n="20">In privatione vero, cum non sit, neutrum verum est, </div>
+            <div type="l" n="21">et cum sit, non semper alterum verum est; visum enim </div>
+            <div type="l" n="22">habere Socraten et caecum esse Socraten opponuntur ut habitus </div>
+            <div type="l" n="23">et privatio, et cum sit, non est necesse alterum </div>
+            <div type="l" n="24">verum esse vel falsum (quando enim non est natus </div>
+            <div type="l" n="25">ut habeat, utraque falsa sunt), cum autem non sit </div>
+            <div type="l" n="26">omnino Socrates, sic quoque utraque falsa sunt, et habere eum </div>
+            <div type="l" n="27">visum et eum esse caecum. In affirmatione vero vel </div>
+            <div type="l" n="28">negatione semper, vel si sit vel si non sit, alterum </div>
+            <div type="l" n="29">ipsorum verum, alterum falsum erit ; aegrotare enim Socraten et non </div>
+            <div type="l" n="30">aegrotare Socraten, cum sit idem ipse, manifestum est quoniam </div>
+            <div type="l" n="31">alterum eorum verum vel falsum est, cum non sit, similiter </div>
+            <div type="l" n="32">(namque aegrotum esse, cum non sit, falsum est, non aegrotare </div>
+            <div type="l" n="33">vero verum est). Quare in solis his erit semper </div>
+            <div type="l" n="34">alterum ipsorum verum esse vel falsum, quaecumque ut affirmatio </div>
+            <div type="l" n="35">et negatio opponuntur. </div>
             <div type="l" n="36">Contrarium autem est bono quidem ex necessitate malum </div>
             <div type="l" n="37">(hoc autem manifestum est ex unaquaque inductione, ut sanitati </div>
          </div>

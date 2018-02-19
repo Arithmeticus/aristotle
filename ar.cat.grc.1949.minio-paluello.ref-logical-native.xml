@@ -19,7 +19,7 @@
       <see-also relationship="ade">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello, object-based references</name>
-         <location href="ar.cat.grc.1949.minio-paluello.scr-native.xml" when-accessed="2015-09-11-04:00"/>
+         <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml" when-accessed="2015-09-11-04:00"/>
       </see-also>
       <see-also relationship="prev">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>

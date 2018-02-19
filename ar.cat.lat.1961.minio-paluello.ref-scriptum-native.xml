@@ -27,7 +27,7 @@
       <see-also relationship="alt">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.log-native.xml"
+         <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
             when-accessed="2016-07-09T23:54:42.291-04:00"/>
       </see-also>
       <see-also relationship="prev">

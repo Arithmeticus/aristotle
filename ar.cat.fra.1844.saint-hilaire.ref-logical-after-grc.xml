@@ -24,13 +24,13 @@
       <see-also relationship="model">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.log-native.xml"
+         <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
             when-accessed="2018-01-26-05:00"/>
       </see-also>
       <see-also relationship="ade">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs</IRI>
          <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
-         <location href="ar.cat.fra.1844.saint-hilaire.log-native.xml"
+         <location href="ar.cat.fra.1844.saint-hilaire.ref-logical-native.xml"
             when-accessed="2018-01-27T13:42:58.638-05:00"/>
       </see-also>
 
@@ -64,17 +64,17 @@
 
       <change when="2018-01-27T12:00:21.153-05:00" who="kalvesmaki">Hand-adjusted div boundaries against the Greek model.</change>
       <change who="xslt1" when="2018-01-26T15:00:21.153-05:00">Input from
-         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.fra.1844.saint-hilaire.log-native.xml
+         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.fra.1844.saint-hilaire.ref-logical-native.xml
          proporitionally inserted into template at
-         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.log-native.xml</change>
+         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
       <change who="xslt1" when="2018-01-26T16:37:28.815-05:00">Input from
-         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.fra.1844.saint-hilaire.log-after-grc-a.xml
+         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc-a.xml
          proporitionally inserted into template at
-         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.log-native.xml</change>
+         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
       <change who="xslt1" when="2018-01-26T23:38:20.69-05:00">Input from
-         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.fra.1844.saint-hilaire.log-after-grc-b.xml
+         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc-b.xml
          proporitionally inserted into template at
-         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.log-native.xml</change>
+         file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
       <change when="2018-01-20" who="kalvesmaki">Removed summaries, titles that were redundant with
          the reference system (e.g., CHAPITRE PREMIERE)</change>
       <change when="2018-01-19-05:00" who="kalvesmaki">Copied from official examples to begin new

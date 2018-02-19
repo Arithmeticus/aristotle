@@ -23,7 +23,7 @@
             <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
             <name>Categories, Aristotle, Greek text by Minio-Paluello, semantic-based
                 references</name>
-            <location href="ar.cat.grc.1949.minio-paluello.log-native.xml" when-accessed="2018-01-23-05:00"/></see-also>
+            <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml" when-accessed="2018-01-23-05:00"/></see-also>
         <see-also relationship="prev">
             <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
             <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
