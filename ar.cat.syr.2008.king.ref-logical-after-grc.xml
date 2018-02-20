@@ -48,6 +48,7 @@
             <name>Stylesheet to create a TAN file.</name>
             <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
          </algorithm>
+         <div-type xml:id="title" which="title"/>
          <div-type xml:id="ch" which="chapter"/>
          <div-type xml:id="par" which="paragraph"/>
          <div-type xml:id="s" which="sentence"/>
@@ -74,7 +75,7 @@
          level.</change>
         </head>
     <body xml:lang="syr">
-      <div type="ch" n="1">ܟܬܒܐ ܕܩܛܓܘܪ̈ܝܘܣ ܕܐܪܝܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ </div>
+      <div type="title" n="title">ܟܬܒܐ ܕܩܛܓܘܪ̈ܝܘܣ ܕܐܪܝܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ </div>
       <div type="ch" n="1">
          <div type="par" n="1">
             <div type="s" n="1">ܐܷܘܴܡܾ̈ܘܢܾܘܡܘܱ ܆ ܗܢܘ ܕܝ̣ܢ ܫܘ̈ܝܝ ܫܡܐ ܡܬܐܡܪܝܢ ܗ̇ܢܘܢ ܕܫܡܐ ܕܓܘܐ ܗܘ. ܡܠܬܐ
@@ -940,6 +941,6 @@
                ܐܝܟ ܕܠܡܐܡܪ ܟܠܗܘܢ ܡܢ ܟܕܘ ܐܬܡܢܝܘ. </div>
          </div>
       </div>
-      <div type="afterword" n="3">ܫܠܡ ܡܐܡܪܐ ܕܩܛܝܓܘܪܝܘܣ ܕܐܪܝܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ. ܕܡܦܩ ܡܢ ܝܘܢܝܐ ܠܣܘܪܝܝܐ. </div>
+      <div type="afterword" n="afterword">ܫܠܡ ܡܐܡܪܐ ܕܩܛܝܓܘܪܝܘܣ ܕܐܪܝܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ. ܕܡܦܩ ܡܢ ܝܘܢܝܐ ܠܣܘܪܝܝܐ. </div>
    </body>
 </TAN-T>

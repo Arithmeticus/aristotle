@@ -48,6 +48,7 @@
          <div-type xml:id="p" which="page"/>
          <div-type which="column (page)" xml:id="c"/>
          <div-type which="line (physical)" xml:id="l"/>
+         <div-type which="title" xml:id="title"/>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:remodel-via-tan-t</IRI>
             <name>Stylesheet to create a TAN file.</name>
@@ -76,7 +77,7 @@
       <change who="xslt1" when="2018-02-13T20:38:51.191-05:00">Input from file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.ref-logical-after-grc.xml proporitionally inserted into template at file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml</change>
       </head>
     <body xml:lang="lat">
-      <div type="p" n="1">LIBER ARISTOTELIS DE DECEM PRAEDICAMENTIS </div>
+      <div type="title" n="title">LIBER ARISTOTELIS DE DECEM PRAEDICAMENTIS </div>
       <div type="p" n="1">
          <div type="c" n="a">
             <div type="l" n="1">Aequivoca dicuntur quorum nomen solum commune est, secundum </div>
@@ -928,7 +929,7 @@
             <div type="l" n="6">et magis et minus, et calefieri magis et </div>
             <div type="l" n="7">minus, et contristari. Suscipiunt ergo et magis et </div>
             <div type="l" n="8">minus facere et pati. </div>
-            <div type="l" n="9"/>
+            <!--<div type="l" n="9"/>-->
             <div type="l" n="10">Ac de his quidem haec dicta sunt ; dictum est autem et </div>
             <div type="l" n="11">de situ in relativis, quoniam denominative a positionibus dicitur. De reliquis vero, </div>
             <div type="l" n="12">id est quando et ubi et habere, propterea quod manifesta sunt, nihil </div>
