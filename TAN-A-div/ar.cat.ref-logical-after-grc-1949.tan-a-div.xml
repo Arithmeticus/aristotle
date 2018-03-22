@@ -4,11 +4,12 @@
 <TAN-A-div xmlns="tag:textalign.net,2015:ns" TAN-version="2018"
     id="tag:kalvesmaki.com,2014:tan-a-div:ar.cat:ref-logical-grc-1949">
     <head>
-        <name>TAN-A-div template</name>
+        <name>Aristotle's Categories</name>
+        <desc>Numeration by chapter / paragraph / sentence, according to Minio-Paluello's 1949 edition</desc>
         <license which="by_4.0"/>
         <licensor who="kalvesmaki"/>
         <key>
-            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+            <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
             <name>General keywords associated with the Aristotle TAN collection</name>
             <location when-accessed="2018-01-19T11:15:34.508-05:00"
                 href="../TAN-key/aristotle.TAN-key.xml"/>
@@ -17,36 +18,36 @@
             <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
             <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
             <location href="../ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
-                when-accessed="2018-02-17-05:00"/>
+                when-accessed="2018-03-09-05:00"/>
         </source>
         <source xml:id="lat">
             <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc</IRI>
             <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
                 Minio-Paluello</name>
             <location href="../ar.cat.lat.1961.minio-paluello.ref-logical-after-grc.xml"
-                when-accessed="2018-02-17-05:00"/>
+                when-accessed="2018-03-09-05:00"/>
         </source>
         <source xml:id="syr">
             <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-logical-after-grc</IRI>
             <name>Categories, Aristotle, Syriac text edited by Daniel King</name>
             <location href="../ar.cat.syr.2008.king.ref-logical-after-grc.xml"
-                when-accessed="2018-02-17-05:00"/>
+                when-accessed="2018-03-09-05:00"/>
         </source>
-        <source xml:id="ara-1">
+        <source xml:id="ara-badawi">
             <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_007.ref-logical-after-grc-1949</IRI>
             <name>Categoriae by Aristotle in ara published 1948</name>
             <location
                 href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_007.tan-t.ref-logical-after-grc-1949.xml"
                 when-accessed="2018-02-19T15:00:45.805-05:00"/>
         </source>
-        <source xml:id="ara-2">
+        <source xml:id="ara-zenker">
             <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_008.ref-logical-after-grc-1949</IRI>
             <name>Categoriae by Aristotle in ara published 1846</name>
             <location
                 href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_008.tan-t.ref-logical-after-grc-1949.xml"
                 when-accessed="2018-02-19T15:01:56.212-05:00"/>
         </source>
-        <source xml:id="ara-3">
+        <source xml:id="ara-georr">
             <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_013.ref-logical-after-grc-1949</IRI>
             <name>Categoriae by Aristotle in ara published 1948</name>
             <location
@@ -57,13 +58,13 @@
             <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs</IRI>
             <name>Categories, Aristotle, English translation by E. M. Edghill</name>
             <location href="../ar.cat.eng.1926.edghill.ref-logical-after-grc.xml"
-                when-accessed="2018-02-17-05:00"/>
+                when-accessed="2018-03-09-05:00"/>
         </source>
         <source xml:id="fra">
             <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello</IRI>
             <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
             <location href="../ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"
-                when-accessed="2018-02-17-05:00"/>
+                when-accessed="2018-03-09-05:00"/>
         </source>
         <definitions>
             <algorithm xml:id="xslt1">
@@ -75,7 +76,9 @@
             <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
             <role which="editor" xml:id="editor"/>
         </definitions>
-
+        <alter src="*">
+            <equate n="ti title head"/>
+        </alter>
         <resp who="xslt1" roles="stylesheet"/>
         <resp roles="editor" who="kalvesmaki"/>
         <change when="2018-02-17-05:00" who="kalvesmaki">Created file</change>

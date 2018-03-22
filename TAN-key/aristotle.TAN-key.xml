@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../../TAN-2018/schemas/TAN-key.rnc" type="application/relax-ng-compact-syntax"?>
 <?xml-model href="../../../TAN-2018/schemas/TAN-key.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:evagrius"
+<TAN-key xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-key:aristotle"
     TAN-version="2018">
     <head>
         <name>General keywords associated with the Aristotle TAN collection</name>
