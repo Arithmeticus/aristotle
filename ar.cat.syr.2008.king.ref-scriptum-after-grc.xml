@@ -19,7 +19,7 @@
              (Philosophy)</desc>
        </source>
         <key>
-            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+            <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
             <name>General keywords associated with the Aristotle TAN collection</name>
             <location href="TAN-key/aristotle.TAN-key.xml"
                    when-accessed="2018-01-19T11:15:34.508-05:00"/>
@@ -65,7 +65,7 @@
         <change when="2018-02-13" who="kalvesmaki">Started new file.</change>
     </head>
     <body xml:lang="syr">
-      <div type="title" n="title">ܟܬܒܐ ܕܩܛܓܘܪ̈ܝܘܣ ܕܐܪܝܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ </div>
+      45
       <div type="p" n="1">
          <div type="c" n="a">
             <div type="l" n="1">ܐܷܘܴܡܾ̈ܘܢܾܘܡܘܱ ܆ ܗܢܘ ܕܝ̣ܢ ܫܘ̈ܝܝ ܫܡܐ ܡܬܐܡܪܝܢ ܗ̇ܢܘܢ </div>

@@ -17,7 +17,7 @@
          </name>
       </source>
       <key>
-         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
          <name>General keywords associated with the Aristotle TAN collection</name>
          <location href="TAN-key/aristotle.TAN-key.xml"
                    when-accessed="2018-01-19T11:15:34.508-05:00"/>
@@ -60,7 +60,9 @@
          <normalization which="no hyphens"/>
       </alter>
       <resp roles="editor" who="kalvesmaki"/>
-      
+      <change when="2018-03-07" who="kalvesmaki" flags="error">Fixed major blunder in segmentation.
+         9.1-3 to 8.7-9 and 9.4 and 9.6 are out; 9.5 to 9.1 and 9.7 to 9.2. 9.2[olim 7].3 to 10.1.1
+         and renumber 10.1.1-2 by +1. </change>
       <change when="2018-01-19-05:00" who="kalvesmaki">Copied from official examples to begin new Aristotle collection.</change>
       <change when="2016-06-22T08:04:25.003-04:00" who="kalvesmaki">Reformatted according to first
          model found. Backup made at
@@ -1450,9 +1452,7 @@
                   quality.</div>
             </div>
          </div>
-      </div>
-      <div type="ch" n="9">
-         <div type="par" n="1">
+         <div type="par" n="7">
             <div type="s" n="1">
                <div type="ic" n="1">Qualities admit of variation of degree.</div>
                <div type="ic" n="2">Whiteness is predicated of one thing in a greater or less degree
@@ -1503,7 +1503,7 @@
                   degree.</div>
             </div>
          </div>
-         <div type="par" n="2">
+         <div type="par" n="8">
             <div type="s" n="1">
                <div type="ic" n="1">Whereas none of the characteristics I have mentioned are
                   peculiar to quality, the fact that likeness and unlikeness can be predicated with
@@ -1515,7 +1515,7 @@
                <div type="ic" n="1">thus this forms the peculiar mark of quality.</div>
             </div>
          </div>
-         <div type="par" n="3">
+         <div type="par" n="9">
             <div type="s" n="1">
                <div type="ic" n="1">We must not be disturbed because it may be argued that, though
                   proposing to discuss the category of quality, we have included in it many relative
@@ -1553,7 +1553,9 @@
                   classing it under both these heads.</div>
             </div>
          </div>
-         <div type="par" n="5">
+      </div>
+      <div type="ch" n="9">
+         <div type="par" n="1">
             <div type="s" n="1">
                <div type="ic" n="1">Action and affection both admit of contraries and also of
                   variation of degree.</div>
@@ -1569,7 +1571,7 @@
                   degree.</div>
             </div>
          </div>
-         <div type="par" n="7">
+         <div type="par" n="2">
             <div type="s" n="1">
                <div type="ic" n="1">So much, then, is stated with regard to these categories.</div>
                <div type="ic" n="2">We spoke, moreover, of the category of position when we were
@@ -1582,22 +1584,22 @@
                   category of state are included such states as 'shod', 'armed', in that of place
                   'in the Lyceum' and so on, as was explained before.</div>
             </div>
-            <div type="s" n="3">
-               <div type="ic" n="1">The proposed categories have, then, been adequately dealt
-                  with.</div>
-               <div type="ic" n="2">We must next explain the various senses in which the term
-                  'opposite' is used.</div>
-            </div>
          </div>
       </div>
       <div type="ch" n="10">
          <div type="par" n="1">
             <div type="s" n="1">
+               <div type="ic" n="1">The proposed categories have, then, been adequately dealt
+                  with.</div>
+               <div type="ic" n="2">We must next explain the various senses in which the term
+                  'opposite' is used.</div>
+            </div>
+            <div type="s" n="2">
                <div type="ic" n="1">Things are said to be opposed in four senses: (i) as
                   correlatives to one another, (ii) as contraries to one another, (iii) as
                   privatives to positives, (iv) as affirmatives to negatives.</div>
             </div>
-            <div type="s" n="2">
+            <div type="s" n="3">
                <div type="ic" n="1">Let me sketch my meaning in outline. An instance of the use of
                   the word 'opposite' with reference to correlatives is afforded by the expressions
                   'double' and 'half'; with reference to contraries by 'bad' and 'good'. Opposites

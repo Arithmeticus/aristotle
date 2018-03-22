@@ -19,7 +19,7 @@
             decerpta pseudo-Augustini paraphrasis themistiana</name>
       </source>
       <key>
-         <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
          <name>General keywords associated with the Aristotle TAN collection</name>
          <location href="TAN-key/aristotle.TAN-key.xml"
                    when-accessed="2018-01-19T11:15:34.508-05:00"/>
@@ -28,7 +28,7 @@
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
          <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
-            when-accessed="2018-01-27-05:00"/>
+            when-accessed="2018-03-09"/>
       </see-also>
       <see-also relationship="ade">
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:object-refs</IRI>
@@ -61,7 +61,9 @@
       <resp who="xslt1" roles="stylesheet1"/>
       <resp who="xslt1" roles="stylesheet1"/>
       <resp roles="editor" who="kalvesmaki"/>
-
+      <change when="2018-03-07" who="kalvesmaki" flags="error">Fixed major blunder in segmentation.
+         9.1-3 to 8.7-9 and 9.4 and 9.6 are out; 9.5 to 9.1 and 9.7 to 9.2. 9.2[olim 7].3 to 10.1.1
+         and renumber 10.1.1-2 by +1. </change>
       <change when="2018-01-27" who="kalvesmaki">Hand-corrected alignments (sentence level).</change>
       <change when="2018-01-27" who="kalvesmaki">Converted line-end hyphens to $shy</change>
       <change when="2018-01-19-05:00" who="kalvesmaki">Copied from official examples to begin new
@@ -616,9 +618,7 @@
                quantitas nec relatio nec ubi nec omnino aliquid huiusmodi, nisi sola qualitas ;
                similiter autem et in aliis secundum qualitatem contrariis. </div>
          </div>
-      </div>
-      <div type="ch" n="9">
-         <div type="par" n="1">
+         <div type="par" n="7">
             <div type="s" n="1">Suscipit autem qualitas magis et minus ; album et enim magis et
                minus alterum altero dicitur, et iustum alterum altero magis. </div>
             <div type="s" n="2">Et idem ipsum sumit intentionem (album enim cum sit, contingit illud
@@ -640,14 +640,14 @@
                dicitur alterum altero magis. </div>
             <div type="s" n="7">Non igitur omnia qualia suscipiunt magis et minus. </div>
          </div>
-         <div type="par" n="2">
+         <div type="par" n="8">
             <div type="s" n="1">Ex his ergo quae dicta sunt nihil est proprium qualitatis, simile
                autem et dissimile secundum solas dicuntur qualitates ; simile enim alterum alteri
                non est secundum aliud nisi secundum hoc quod quale est. </div>
             <div type="s" n="2">Quare proprium erit qualitatis secundum eam simile et dissimile
                dici. </div>
          </div>
-         <div type="par" n="3">
+         <div type="par" n="9">
             <div type="s" n="1">At vero non decet conturbari ne quis nos dicat de qualitate
                propositionem facientes multa de relativis interposuisse; habitudines enim et
                affectiones eorum quae sunt ad aliquid esse diximus. </div>
@@ -666,8 +666,9 @@
             <div type="s" n="5">Amplius si contingat idem et quale esse et relativum, nihil est
                inconveniens in utrisque hoc generibus annumerare. </div>
          </div>
-         <!--<div type="par" n="4"/>-->
-         <div type="par" n="5">
+      </div>
+      <div type="ch" n="9">
+         <div type="par" n="1">
             <div type="ti" n="ti">DE FACERE ET PATI.- </div>
             <div type="s" n="1">Suscipit autem et facere et pati contrarietatem et magis et minus;
                calefacere enim et frigidum facere contraria sunt, et calefieri et frigidum fieri, et
@@ -676,35 +677,28 @@
                calefieri magis et minus, et contristari. Suscipiunt ergo et magis et minus facere et
                pati. </div>
          </div>
-         <!--<div type="par" n="6"/>-->
-         <div type="par" n="7">
+         <div type="par" n="2">
             <div type="s" n="1">Ac de his quidem haec dicta sunt ; dictum est autem et de situ in
                relativis, quoniam denominative a positionibus dicitur. </div>
             <div type="s" n="2">De reliquis vero, id est quando et ubi et habere, propterea quod
                manifesta sunt, nihil de his ultra dicitur quam quod in principia dictum est, quod
                habere significat calciatum esse vel armatum, ubi vero in Lycio, vel alia quaecumque
                de his dicta sunt. </div>
-            <div type="s" n="3">
-               <div type="ic" n="1">Igitur de his generibus quae proposuimus sufficienter dictum
-                  est. </div>
-               <div type="ti" n="ti">DE OPPOSITIS. - </div>
-               <div type="ic" n="2">Quotiens solent opponi, dicendum est. </div>
-            </div>
          </div>
       </div>
-      <!--<div type="ch" n="10">
-      </div>-->
-      <!--<div type="ch" n="9">
-         <div type="par" n="7">
-            <div type="s" n="3">
-            </div>
-         </div>
-      </div>-->
       <div type="ch" n="10">
          <div type="par" n="1">
-            <div type="s" n="1">Dicitur autem alterum alteri opponi quadrupliciter, aut ut ad
+            <div type="s" n="1">
+               <div type="ic" n="1">Igitur de his generibus quae proposuimus sufficienter dictum
+                  est. </div>
+            </div>
+            <div type="ti" n="ti">DE OPPOSITIS. - </div>
+            <div type="s" n="1">
+               <div type="ic" n="2">Quotiens solent opponi, dicendum est. </div>
+            </div>
+            <div type="s" n="2">Dicitur autem alterum alteri opponi quadrupliciter, aut ut ad
                aliquid, aut ut contraria, aut ut habitus et privatio, aut ut affirmatio et negatio. </div>
-            <div type="s" n="2">Opponitur autem unumquodque istorum, ut sit figuratim dicere, ut
+            <div type="s" n="3">Opponitur autem unumquodque istorum, ut sit figuratim dicere, ut
                relativa ut duplum medio, ut contraria ut bonum malo, ut secundum privationem et
                habitum ut caecitas et visus, ut affirmatio et negatio ut sedet- non sedet. </div>
          </div>

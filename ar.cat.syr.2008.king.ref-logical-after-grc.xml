@@ -19,7 +19,7 @@
              (Philosophy)</desc>
        </source>
         <key>
-            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+            <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
             <name>General keywords associated with the Aristotle TAN collection</name>
             <location href="TAN-key/aristotle.TAN-key.xml"
                    when-accessed="2018-01-19T11:15:34.508-05:00"/>
@@ -69,6 +69,9 @@
         </alter>
         <resp who="xslt1" roles="stylesheet1"/>
         <resp who="kalvesmaki" roles="editor"/>
+       <change when="2018-03-07" who="kalvesmaki" flags="error">Fixed major blunder in segmentation.
+          9.1-3 to 8.7-9 and 9.4 and 9.6 are out; 9.5 to 9.1 and 9.7 to 9.2. 9.2[olim 7].3 to 10.1.1
+          and renumber 10.1.1-2 by +1. </change>
         <change when="2018-02-13" who="kalvesmaki">Started new file.</change>
       <change who="xslt1" when="2018-02-13T20:56:59.192-05:00">Input from file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.syr.2008.king.ref-scriptum-after-grc.xml proporitionally inserted into template at file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
       <change when="2018-02-15" who="kalvesmaki">Hand-corrected alignments on sentence
@@ -652,9 +655,7 @@
                ܡܢ ܟܘ̈ܢܝܐ ܐܚܪ̈ܢܐ ܡܬܠܚܡ ܠܥܘܠܘܬܐ. ܠܐ ܙܢܐ ܘܠܐ ܗ̇ܘ ܕܠܘܬ ܡܕܡ܁ ܘܠܐ ܗ̇ܘ ܕܐܝܟܐ. ܘܐܦܠܐ ܚܕ ܡܢ
                ܐܝܠܝܢ ܕܕܐܝܟ ܗܠܝܢ ܐܦܠܐ ܚܕ ܐܠܐ ܥܠ ܙܢܐ. ܗܟܘܬ ܕܝܢ ܕܐܝܟ ܥܠ ܗܠܝܢ ܐܚܪ̈ܢܝܐ ܕܠܩ̈ܘܒܠܝܝܢ ܠܙܢܐ. </div>
          </div>
-      </div>
-      <div type="ch" n="9">
-         <div type="par" n="1">
+         <div type="par" n="7">
             <div type="s" n="1">ܡܩܒܠ ܕܝܢ ܘܐܦ ܗ̇ܝ ܕܝܬܝܪ ܘܒܨܝܪ ܐܚܪܢܐ ܡܢ ܐܚܪܢܐ. ܡܬܐܡܪ ܘܐܦ ܗ̇ܘ ܕܝܢ ܫܘܫܛܐ ܡ̇ܩܒܠ. </div>
             <div type="s" n="2">ܐܝܢܐ ܓܝܪ ܕܐܝܬܘܗܝ ܚܘܪܐ ܡܨܝܐ ܕܢܗܘܐ ܕܝܬܝܪ ܚܘܪ. ܠܘ ܟܠ ܐܚܪ̈ܢܐ ܐܠܐ
                ܕܒܣܘܓܐܐ. ܙܕܝܩܘܬܐ ܕܝܢ ܡܬܐܡܪܐ ܕܝܬܝܪ ܡܢ ܙܕܝܩܘܬܐ. ܟܒܪ ܕܝܢ ܡܫܐܠ ܐܢܫ. ܕܗܟܘܬ ܕܝܢ ܐܦ ܥܠ
@@ -668,12 +669,12 @@
             <div type="s" n="6">ܐܝܟ ܕܠܡܐܡܪ ܕܝܢ ܐܠܘ ܠܐ ܠܡܠܬܐ ܕܗ̇ܝ ܕܣܝܡ ܐܝܢܐ ܕܡܩܒܠ ܠܬܪ̈ܬܝܗܝܢ. ܠܐ ܡܬܐܡܪ. ܕܐܚܪܢܐ ܝܬܝܪ ܡܢ ܐܚܪܢܐ. </div>
             <div type="s" n="7">ܡܕܝ̣ܢ ܠܘ ܟܠ ܐܝܠܝܢ ܕܡܢ ܙܢܐ ܡܩܒܠܝܢ ܗ̇ܝ ܕܝܬܝܪ. ܡܢ </div>
          </div>
-         <div type="par" n="2">
+         <div type="par" n="8">
             <div type="s" n="1">ܐܝܠܝܢ ܕܐܬܐܡܪ ܗܟܝܠ ܐܦܠܐ ܕܝܠܢܝ ܠܙܢܘܬܐ. ܕܡܝܘܬܐ ܕܝܢ ܘܠܐ ܕܡܝܘܬܐ ܗܝ ܒܠܚܘܕ
                ܥܠ ܙܢܘܬܐ ܡܬܐܡܪܐ. ܠܝܬ ܓܝܪ ܡܕܡ ܕܕܡ̇ܐ ܐܚܪܢܐ ܠܐܚܪܢܐ ܒܡܕܡ ܐܚܪܝܢ. ܐܠܐ ܐܢ ܒܗ̇ܝ ܕܙܢܐ ܐܝܬܘܗܝ. </div>
             <div type="s" n="2">ܡܕܝܢ ܕܝܠܝܬܐ ܗܝ ܕܙܢܘܬܐ ܗ̇ܝ ܕܢܬܐܡܪ ܕܕܡ̇ܐ ܘܠܐ ܕܡ̇ܐ. </div>
          </div>
-         <div type="par" n="3">
+         <div type="par" n="9">
             <div type="s" n="1">ܠܐ ܕܝܢ ܙܕܩ̇ ܠܡܫܬܓܫܘ̇. ܕܠܡܐ ܢܐܡܪ ܠܢ ܐܢܫ ܕܚܠܦ ܙܢܘܬܐ ܡܩܕܡܢܘܬܐ ܥܒܕܝܢܢ.
                ܕܣܓ̈ܝܐܬܐ ܡܢ ܐܝܠܝܢ ܕܠܘܬ ܡܕܡ ܚܫܒܝܢܢ ܥܡܗ. ܗ̇ܝ ܠܡ ܓܝܪ ܕܐܟ̈ܣܝܣ ܘܕܝ̈ܐܬܣܝܣ. ܡܢ ܐܝܠܝܢ ܕܠܘܬ
                ܡܕܡ ܐܝܬܝܗܝܢ. </div>
@@ -691,28 +692,28 @@
             <div type="s" n="5">ܘܐܦܢ ܢܗܘܐ ܬܘܒ ܕܐܝܬ ܡܕܡ ܕܗ̣ܘ ܟܕ ܗ̣ܘ ܒܙܢܐ ܘܠܘܬ ܡܕܡ ܐܝܬܘܗܝ ܠܐ ܫܟܝܪܐ
                ܕܒܬܪ̈ܝܗܘܢ ܓܢ̈ܣܐ ܗ̣ܘ ܟܕ ܗ̣ܘ ܢܬܡܢ̣ܐ. </div>
          </div>
-         <!--<div type="par" n="4"/>-->
-         <div type="par" n="5">
+      </div>
+      <div type="ch" n="9">
+         <div type="par" n="1">
             <div type="s" n="1">ܥܠ ܕܠܩܘܒܠܝܘܬܐ. ܡܩܒܠ ܕܝܢ ܗ̇ܘ ܕܠܡܥܒܕ ܘܠܡܚܫ. ܕܠܩܘܒܠܝܘܬܐ ܘܝܬܝܪܘܬܐ
                ܘܒܨܝܪܘܬܐ̣. ܠܡܚܡܘ ܓܝܪ ܘܠܡܩܪܘ ܕܠܩܘܒܠܐ [ܕܠܡܚܡ] ܡܬܚܡ ܠܗ̇ܝ ܕܠܡܩܪܘ ܠܡܬܗܢܝܘ ܠܗ̇ܝ ܕܠܡܬܬܥܩܘ. </div>
             <div type="s" n="2">ܡܕܝܢ ܡܩܒܠܐ ܗܝ ܕܝܬܝܪ ܐܦ ܕܠܡܥܒܕ ܕܝܬܝܪ ܘܐܦ ܗ̇ܝ ܕܠܡܫܚ </div>
          </div>
-         <!--<div type="par" n="6"/>-->
-         <div type="par" n="7">
+         <div type="par" n="2">
             <div type="s" n="1">ܥܠ ܗܠܝܢ ܗܟܝܠ ܐܡܝܪ̈ܢ. ܐܡܝܪ ܕܝܢ ܐܦ ܥܠ ܐܝܠܝܢ ܕܗ̣ܘ ܕܣܝܡ ܒܐܝܠܝܢ ܕܠܘܬ ܡܕܡ܁
                ܕܒܢܣܝܒܘܬ ܫܡܐ ܡܢ ܐܝܠܝܢ ܕܣܝ̈ܡܢ ܡܬܐܡܪ. </div>
             <div type="s" n="2">ܥܠ ܫܪܟܐ ܕܝܢ ܗܢܘ ܕܝ̣ܢ ܕܐܡܬܝ. ܘܕܐܝܟܐ ܘܕܐܝܬ. ܡܛܠ ܕܢܗܝܪ̈ܐ ܘܠܐ ܡܕܡ ܐܚܪܢ
                ܥܠ ܐ̈ܦܝ ܗܠܝܢ ܡܬܐܡܪ ܣܛܪ ܡܢ ܐܝܠܝܢ ܕܒܫܘܪܝܐ ܐܬܐܡܪ ܕܐܝܬ ܡ̇ܢ ܡܫܘܕܥ ܗ̇ܘ ܕܡܚܙܩ ܘܣܐܝܢ ܘܗ̇ܘ
                ܕܐܝܟܐ. ܐܟܙܢܐ ܕܒܠܘܩܝܘܢ ܘܐܚܪ̈ܢܝܬܐ ܐܝܠܝܢ ܕܥܠܝܗܝܢ ܐܬܐܡܪ </div>
-            <div type="s" n="3">ܐܦ ܥܠ ܗܠܝܢ ܕܝܢ ܓܢ̈ܣܐ ܕܐܬܬܣܝܡܘ ܐܝܠܝܢ ܕܐܬܩܕܡܘ ܐܬܐܡܪ. ܬܘܒ ܕܠܩܘܒܠܝܘܬܐ܀
-               ܥܠ ܕܠܩܘܒܠܝܘܬܐ ܕܝܢ ܕܒܟܡܐ ܙܢ̈ܝܐ ܡܥܕܝܢܢ ܕܢܣܝܡ܁ ܕܠܩܘܒܠܐ ܐܬܐܡܪ. </div>
          </div>
       </div>
       <div type="ch" n="10">
          <div type="par" n="1">
-            <div type="s" n="1">ܡܬܐܡܪ ܕܝܢ ܕܣܝܡ ܚܕ ܠܘܩܒܠ ܚܒܪܗ. ܐܝܟ ܡܢ ܐܝܠܝܢ ܕܠܘܬ ܡܕܡ܁ ܐܘ ܐܝܟ
+            <div type="s" n="1">ܐܦ ܥܠ ܗܠܝܢ ܕܝܢ ܓܢ̈ܣܐ ܕܐܬܬܣܝܡܘ ܐܝܠܝܢ ܕܐܬܩܕܡܘ ܐܬܐܡܪ. ܬܘܒ ܕܠܩܘܒܠܝܘܬܐ܀
+               ܥܠ ܕܠܩܘܒܠܝܘܬܐ ܕܝܢ ܕܒܟܡܐ ܙܢ̈ܝܐ ܡܥܕܝܢܢ ܕܢܣܝܡ܁ ܕܠܩܘܒܠܐ ܐܬܐܡܪ. </div>
+            <div type="s" n="2">ܡܬܐܡܪ ܕܝܢ ܕܣܝܡ ܚܕ ܠܘܩܒܠ ܚܒܪܗ. ܐܝܟ ܡܢ ܐܝܠܝܢ ܕܠܘܬ ܡܕܡ܁ ܐܘ ܐܝܟ
                ܕܠܩܘܒܠܝܘܬܐ ܐܘ ܐܝܟ ܓܠܝܙܘܬܐ ܘܐܝܬܘܬܐ ܐܘ ܐܝܟ ܩܛܦܣܝܣ ܘܐܦܘܦܣܝܣ. </div>
-            <div type="s" n="2">ܟܠ ܚܕ ܡܢ ܗܠܝܢ ܐܝܬܝܗܝܢ ܕܠܩܘܒܠܐ ܕܚ̈ܕܕܐ ܐܝܟ ܕܒܦܣܝܩܘܬܐ ܠܡܐܡܪ ܗܠܝܢ ܠܘܬ
+            <div type="s" n="3">ܟܠ ܚܕ ܡܢ ܗܠܝܢ ܐܝܬܝܗܝܢ ܕܠܩܘܒܠܐ ܕܚ̈ܕܕܐ ܐܝܟ ܕܒܦܣܝܩܘܬܐ ܠܡܐܡܪ ܗܠܝܢ ܠܘܬ
                ܡܕܡ܁ ܐܟܙܢܐ ܕܐܥܦܐ ܕܦܠܓܐ. ܐܝܟ ܕܠܩܘܒܠܐ ܕܝܢ ܒܝܫܬܐ ܠܛܒܬܐ ܐܝܟ ܕܒܓܠܝܙܘܬܐ ܕܝܢ ܘܒܐܝܬܘܬܐ ܣܡܝܘܬܐ
                ܠܚܙܬܐ. ܐܝܟ ܕܒܩܛܦܣܝܣ ܘܒܐܦܘܦܣܝܣ. ܐܟܙܢܐ ܕܝ̇ܬܒ ܘܠܐ ܝ̈ܬܒ. </div>
          </div>

@@ -14,7 +14,7 @@
                 1949 </name>
         </source>
         <key>
-            <IRI>tag:kalvesmaki.com,2014:tan-key:evagrius</IRI>
+            <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
             <name>General keywords associated with the Aristotle TAN collection</name>
             <location href="TAN-key/aristotle.TAN-key.xml"
                 when-accessed="2018-01-19T11:15:34.508-05:00"/>
@@ -49,6 +49,7 @@
             <normalization which="no hyphens"/>
         </alter>
         <resp who="kalvesmaki" roles="editor"/>
+        <change when="2018-03-08" who="kalvesmaki">Removed ellipses at 11a39 and 11b9</change>
         <change when="2018-01-19-05:00" who="kalvesmaki">Copied from official examples to begin new Aristotle collection.</change>
         <change when="2015-07-09-04:00" who="kalvesmaki">Started new file.</change>
     </head>
@@ -1087,7 +1088,6 @@
                 <div type="l" n="37">ἔτι εἰ τυγχάνει τὸ αὐτὸ ποιὸν καὶ πρός τι ὄν, οὐδὲν
                     ἄτοπον</div>
                 <div type="l" n="38">ἐν ἀμφοτέροις τοῖς γένεσιν αὐτὸ καταριθμεῖσθαι.</div>
-                <div type="l" n="39">&lt;. . . . . . . . . . . . . . . . . . .&gt;</div>
             </div>
             <div type="c" n="b">
                 <div type="l" n="1">Ἐπιδέχεται δὲ καὶ τὸ ποιεῖν καὶ πάσχειν ἐναντιό­</div>
@@ -1099,7 +1099,6 @@
                 <div type="l" n="6">τον ἔστι, καὶ θερμαίνεσθαι μᾶλλον καὶ ἧττον, καὶ λυπεῖσθαι</div>
                 <div type="l" n="7">μᾶλλον καὶ ἧττον· ἐπιδέχεται οὖν τὸ μᾶλλον καὶ τὸ ἧττον</div>
                 <div type="l" n="8">τὸ ποιεῖν καὶ τὸ πάσχειν.</div>
-                <div type="l" n="9">&lt;. . . . . . . . . . . . . . . . . . .&gt;</div>
                 <div type="l" n="10">[Ὑπὲρ μὲν οὖν τούτων τοσαῦτα λέγεται· εἴρηται δὲ καὶ ὑπὲρ τοῦ
                     κεῖσθαι</div>
                 <div type="l" n="11">ἐν τοῖς πρός τι, ὅτι παρωνύμως ἀπὸ τῶν θέσεων λέγεται. ὑπὲρ δὲ
