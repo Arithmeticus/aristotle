@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns"
-       id="tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-after-grc"
-       TAN-version="2018">
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-after-grc" TAN-version="2020">
     <head>
         <name>Categories, Aristotle, Syriac text edited by Daniel King</name>
-        <license which="by_4.0"/>
-        <licensor who="kalvesmaki"/>
+        <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Aristotle, Categories"/>
        <source>
           <IRI>http://lccn.loc.gov/2010039953</IRI>
           <IRI>urn:isbn:9789004186606</IRI>
@@ -18,26 +16,25 @@
           <desc>by Daniel King. Includes bibliographical references and index. Categories
              (Philosophy)</desc>
        </source>
-        <key>
-            <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
+        <vocabulary>
+            <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
             <name>General keywords associated with the Aristotle TAN collection</name>
-            <location href="TAN-key/aristotle.TAN-key.xml"
-                   when-accessed="2018-01-19T11:15:34.508-05:00"/>
-        </key>
-        <see-also relationship="model">
+            <location href="TAN-voc/aristotle.TAN-voc.xml" accessed-when="2018-01-19T11:15:34.508-05:00"/>
+        </vocabulary>
+        <model>
             <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
             <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-            <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
-                when-accessed="2018-02-13T08:30:14.641-05:00"/>
-        </see-also>
-        <see-also relationship="ade">
+            <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml" accessed-when="2018-02-13T08:30:14.641-05:00"/>
+        </model>
+        <redivision>
             <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-native</IRI>
             <name>Categories, Aristotle, Syriac text by Daniel King</name>
-            <location href="ar.cat.syr.2008.king.ref-scriptum-native.xml"
-                when-accessed="2018-02-13T08:31:33.039-05:00"/>
-        </see-also>
-        <definitions>
-            <work which="Aristotle, Categories"/>
+            <location href="ar.cat.syr.2008.king.ref-scriptum-native.xml" accessed-when="2018-02-13T08:31:33.039-05:00"/>
+        </redivision>
+        <adjustments>
+            <normalization which="no hyphens"/>
+        </adjustments>
+        <vocabulary-key>
             
             <div-type xml:id="fol" which="folio"/>
             
@@ -54,18 +51,15 @@
             <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
             <role xml:id="editor" which="editor"/>
             <role xml:id="stylesheet1" which="stylesheet"/>
-            
-            <relationship xml:id="model" which="model"/>
-            <relationship which="alternatively divided edition" xml:id="ade"/>
-        </definitions>
-        <alter>
-            <normalization which="no hyphens"/>
-        </alter>
-        <resp who="kalvesmaki" roles="editor"/>
+        </vocabulary-key>
+        <file-resp who="kalvesmaki"/>
+      <resp who="kalvesmaki" roles="editor"/>
         <change when="2018-02-13" who="kalvesmaki">Started new file.</change>
+      <to-do>
+         <comment when="2018-02-13" who="kalvesmaki">File needs to be checked.</comment>
+      </to-do>
     </head>
     <body xml:lang="syr">
-      45
       <div type="p" n="1">
          <div type="c" n="a">
             <div type="l" n="1">ܐܷܘܴܡܾ̈ܘܢܾܘܡܘܱ ܆ ܗܢܘ ܕܝ̣ܢ ܫܘ̈ܝܝ ܫܡܐ ܡܬܐܡܪܝܢ ܗ̇ܢܘܢ </div>

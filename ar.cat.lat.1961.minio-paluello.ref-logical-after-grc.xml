@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns"
-       id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc"
-       TAN-version="2018">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc" TAN-version="2020">
    <head>
       <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
          Minio-Paluello</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Aristotle, Categories"/>
       <source>
          <IRI>http://id.lib.harvard.edu/aleph/000987221/catalog</IRI>
          <IRI>http://www.worldcat.org/oclc/912995321</IRI>
@@ -18,26 +16,23 @@
             editio composita translatio Guillelmi de Moerbeka, lemmata e simplicii commentario
             decerpta pseudo-Augustini paraphrasis themistiana</name>
       </source>
-      <key>
-         <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
          <name>General keywords associated with the Aristotle TAN collection</name>
-         <location href="TAN-key/aristotle.TAN-key.xml"
-                   when-accessed="2018-01-19T11:15:34.508-05:00"/>
-      </key>
-      <see-also relationship="model">
+         <location href="TAN-voc/aristotle.TAN-voc.xml" accessed-when="2018-01-19T11:15:34.508-05:00"/>
+      </vocabulary>
+      <model>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
-            when-accessed="2018-03-09"/>
-      </see-also>
-      <see-also relationship="ade">
+         <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml" accessed-when="2018-03-09"/>
+      </model>
+      <redivision>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
          Minio-Paluello</name>
-         <location href="ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml"
-                   when-accessed="2018-01-27-05:00"/>
-      </see-also>
-      <definitions>
+         <location href="ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml" accessed-when="2018-01-27-05:00"/>
+      </redivision>
+      <vocabulary-key>
          <div-type xml:id="ti" which="title"/>
          <div-type xml:id="ch" which="chapter"/>
          <div-type xml:id="par" which="paragraph"/>
@@ -46,20 +41,13 @@
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:remodel-via-tan-t</IRI>
             <name>Stylesheet to create a TAN file.</name>
-            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+            <location href="../../TAN-2020/applications/remodel/remodel%20via%20TAN-T.xsl" accessed-when="2018-08-30"/>
          </algorithm>
-         <work which="Aristotle, Categories"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet1" which="stylesheet"/>
-         <relationship xml:id="model" which="model"/>
-         <relationship xml:id="ade" which="resegmented copy"/>
-         <relationship xml:id="alt" which="different work version"/>
-         <relationship which="old version" xml:id="prev"/>
-      </definitions>
+      </vocabulary-key>
       
-      <resp who="xslt1" roles="stylesheet1"/>
-      <resp who="xslt1" roles="stylesheet1"/>
+      <file-resp who="kalvesmaki"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-03-07" who="kalvesmaki" flags="error">Fixed major blunder in segmentation.
          9.1-3 to 8.7-9 and 9.4 and 9.6 are out; 9.5 to 9.1 and 9.7 to 9.2. 9.2[olim 7].3 to 10.1.1
@@ -72,6 +60,9 @@
 
       <change who="xslt1" when="2018-01-27T20:30:48.149-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
       <change who="xslt1" when="2018-01-27T21:00:58.213-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.lat.1961.minio-paluello.ref-logical-after-grc-a.xml proporitionally inserted into template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
+      <to-do>
+         <comment when="2018-03-07" who="kalvesmaki">File needs to be checked.</comment>
+      </to-do>
       </head>
     <body xml:lang="lat">
       <div type="ti" n="ti">LIBER ARISTOTELIS DE DECEM PRAEDICAMENTIS </div>

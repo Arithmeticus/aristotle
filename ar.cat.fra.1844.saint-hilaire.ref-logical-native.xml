@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns"
-       id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs"
-       TAN-version="2018">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs" TAN-version="2020">
    <head>
       <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Aristotle, Categories"/>
       <source>
          <IRI>http://id.lib.harvard.edu/aleph/002773288/catalog</IRI>
          <name>Logique d'Aristote: Traduite en français pour la première fois et accompagnée de
             notes perpétuelles par J. Barthélemy Saint-Hilaire. Paris : Ladrange, 1839-1844. </name>
       </source>
-      <key>
-         <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
          <name>General keywords associated with the Aristotle TAN collection</name>
-         <location href="TAN-key/aristotle.TAN-key.xml"
-                   when-accessed="2018-01-19T11:15:34.508-05:00"/>
-      </key>
-      <see-also relationship="ade">
-         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-realigned</IRI>
+         <location href="TAN-voc/aristotle.TAN-voc.xml" accessed-when="2018-01-19T11:15:34.508-05:00"/>
+      </vocabulary>
+      <redivision>
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello</IRI>
          <name>Realignment of Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
-         <location href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"
-                   when-accessed="2016-07-13T15:08:34.397-04:00"/>
-      </see-also>
-      <see-also relationship="prev">
-         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs</IRI>
-         <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
-         <location href="http://textalign.net/release/TAN-2018/examples/ar.cat.fra.1844.saint-hilaire.ref-logical-native"
-                   when-accessed="2018-01-19-05:00"/>
-      </see-also>
-      <definitions>
-         <work which="Aristotle, Categories"/>
-
+         <location href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml" accessed-when="2018-08-30"/>
+      </redivision>
+      <adjustments>
+         <normalization which="no hyphens"/>
+      </adjustments>
+      <vocabulary-key>
          <div-type xml:id="ti" which="title"/>
          <div-type xml:id="sec" which="section"/>
          <div-type xml:id="ch" which="chapter"/>
@@ -43,19 +34,16 @@
 
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
          
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet1" which="stylesheet"/>
-         <relationship which="resegmented copy" xml:id="ade"/>
-         <relationship which="old version" xml:id="prev"/>
-      </definitions>
-      <alter>
-         <normalization which="no hyphens"/>
-      </alter>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       
       <change when="2018-01-20" who="kalvesmaki">Removed summaries, titles that were redundant with the reference system (e.g., CHAPITRE PREMIERE)</change>
       <change when="2018-01-19-05:00" who="kalvesmaki">Copied from official examples to begin new Aristotle collection.</change>
       <change when="2016-07-10" who="kalvesmaki">Began new file</change>
+      <to-do>
+         <comment when="2018-01-20" who="kalvesmaki">File needs to be checked.</comment>
+      </to-do>
       
    </head>
    <body xml:lang="fra">

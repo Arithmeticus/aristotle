@@ -1,73 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns"
-   id="tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:model-object-refs"
-       TAN-version="2018">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:model-object-refs" TAN-version="2020">
    <head>
       <name>Categories, Aristotle, English translation by E. M. Edghill</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Aristotle, Categories"/>
       <source>
          <IRI>http://id.lib.harvard.edu/aleph/007901738/catalog</IRI>
          <name>Aristotle: Categoriae &amp; De interpretatione by E.M. Edghill. Analytica priora / by
             A.J. Jenkinson. Analytica posteriora / by G.R.G. Mure. Oxford : Clarendon Press, 1926.
          </name>
       </source>
-      <key>
-         <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
          <name>General keywords associated with the Aristotle TAN collection</name>
-         <location when-accessed="2018-01-19T11:15:34.508-05:00"
-                   href="TAN-key/aristotle.TAN-key.xml"/>
-      </key>
-      <see-also relationship="model">
+         <location accessed-when="2018-01-19T11:15:34.508-05:00" href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <model>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
-                   when-accessed="2018-03-08-05:00"/>
-      </see-also>
-      <see-also relationship="ade">
+         <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml" accessed-when="2018-03-08-05:00"/>
+      </model>
+      <redivision>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs</IRI>
          <name>Categories, Aristotle, English translation by E. M. Edghill</name>
-         <location href="ar.cat.eng.1926.edghill.ref-logical-after-grc.xml"
-                   when-accessed="2018-03-08-05:00"/>
-      </see-also>
-      <definitions>
+         <location href="ar.cat.eng.1926.edghill.ref-logical-after-grc.xml" accessed-when="2018-03-08-05:00"/>
+      </redivision>
+      <adjustments>
+         <normalization which="no hyphens"/>
+      </adjustments>
+      <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:remodel-via-tan-t</IRI>
             <name>Stylesheet to create a TAN file.</name>
-            <desc>Stylesheet at: ../../do%20things/remodel/remodel%20via%20TAN-T.xsl</desc>
+            <location href="../../TAN-2020/applications/remodel/remodel%20via%20TAN-T.xsl" accessed-when="2018-08-30"/>
          </algorithm>
          <div-type xml:id="p" which="page"/>
          <div-type which="column (page)" xml:id="c"/>
          <div-type which="line (physical)" xml:id="l"/>
-         <work which="Aristotle, Categories"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet1" which="stylesheet"/>
-         <relationship xml:id="ade" which="resegmented copy"/>
-         <relationship which="model" xml:id="model"/>
-         <relationship which="different work version" xml:id="alt"/>
-         <relationship which="old version" xml:id="prev"/>
-      </definitions>
-      
-      <alter>
-         <normalization which="no hyphens"/>
-      </alter>
-      <resp who="xslt1" roles="stylesheet1"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-03-07" who="kalvesmaki" flags="error">Fixed major blunder in segmentation.
          9.1-3 to 8.7-9 and 9.4 and 9.6 are out; 9.5 to 9.1 and 9.7 to 9.2. 9.2[olim 7].3 to 10.1.1
          and renumber 10.1.1-2 by +1. </change>
       <change when="2018-01-19-05:00" who="kalvesmaki">Copied from official examples to begin new Aristotle collection.</change>
       <change when="2016-06-22T08:04:25.003-04:00" who="kalvesmaki">Reformatted according to first
-         model found. Backup made at
-         file:/C:/Users/jdkalv/Dropbox/TAN/library/TAN-2018/examples/ar.cat.eng.1926.edghill.ref-logical-201606220804250030400.xml.</change>
+         model found. </change>
       <change when="2016-01-26-04:00" who="kalvesmaki">Started new file.</change>
       
       <change who="xslt1" when="2018-03-08T07:38:40.14-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.eng.1926.edghill.ref-logical-after-grc.xml proportionally remodeled after template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml</change>
+      <to-do>
+         <comment when="2018-03-08T07:38:40.14-05:00" who="xslt1">File needs to be checked.</comment>
+      </to-do>
       </head>
    <body xml:lang="eng">
       <div n="1" type="p">
@@ -580,7 +570,7 @@
             <div n="27" type="l">will be no interdependence if one of the two is denoted, not by that name </div>
             <div n="28" type="l">which expresses the correlative notion, but by one of irrelevant significance. The term 'slave,' </div>
             <div n="29" type="l">if defined as related, not to a master, but to a </div>
-            <div n="30" type="l">man, or a biped, or anything of that sort, not reciprocally connected with that in relation to which </div>
+            <div n="30" type="l">man, or a biped, or anything of that sort, is not reciprocally connected with that in relation to which </div>
             <div n="31" type="l">it is defined, for the statement is not exact. Further, if one thing is said to be correlative with another, </div>
             <div n="32" type="l">and the terminology used is correct, then, though all irrelevant attributes should be </div>
             <div n="33" type="l">removed, and only that one attribute left in virtue of which it was correctly stated </div>
@@ -687,7 +677,7 @@
             <div n="9" type="l">definitely know that also than which it is more beautiful. He will not merely </div>
             <div n="10" type="l">know indefinitely that it is more beautiful than something which is less beautiful, for </div>
             <div n="11" type="l">this would be supposition, not knowledge. For if he does </div>
-            <div n="12" type="l">not know definitely that than which it is more beautiful, can no longer claim to know definitely that it is more beautiful </div>
+            <div n="12" type="l">not know definitely that than which it is more beautiful, he can no longer claim to know definitely that it is more beautiful </div>
             <div n="13" type="l">than something else which is less beautiful: for it might be that nothing was less beautiful. It is, therefore, evident that if a </div>
             <div n="14" type="l">man apprehends some relative thing definitely, he necessarily knows that also </div>
             <div n="15" type="l">definitely to which it is related. Now the head, the hand, and </div>
@@ -1045,7 +1035,7 @@
             <div n="4" type="l">hand, neither of the aforesaid statements holds good. For it is not necessary that a subject receptive </div>
             <div n="5" type="l">of the qualities should always have either the one or the other; that which has not </div>
             <div n="6" type="l">yet advanced to the state when sight is natural is not said either to be blind or to see. Thus </div>
-            <div n="7" type="l">'positives' and 'privatives' do not belong to that class of contraries which consists of those which have no intermediate. the </div>
+            <div n="7" type="l">'positives' and 'privatives' do not belong to that class of contraries which consists of those which have no intermediate. On the </div>
             <div n="8" type="l">other hand, they do not belong either to that class which consists of contraries which have an intermediate. For under certain conditions it is necessary that either the </div>
             <div n="9" type="l">one or the other should form part of the constitution of every appropriate subject. For when a thing has </div>
             <div n="10" type="l">reached the stage when it is by nature capable of sight, it will be said either to see or to be </div>
@@ -1256,7 +1246,7 @@
             <div n="23" type="l">a ring on the hand: or in respect of something which is a part of us, as hand or foot. The term refers </div>
             <div n="24" type="l">also to content, as in the case of a vessel and wheat, or of a </div>
             <div n="25" type="l">jar and wine; a jar is said to 'have' wine, and a corn-measure wheat. </div>
-            <div n="26" type="l">The expression in such cases has reference to content. it refers to that which has been acquired; </div>
+            <div n="26" type="l">The expression in such cases has reference to content. Or it refers to that which has been acquired; </div>
             <div n="27" type="l">we are said to 'have' a house or a field. A man is also </div>
             <div n="28" type="l">said to 'have' a wife, and a wife a husband, and this appears to be </div>
             <div n="29" type="l">the most remote meaning of the term, for by the use of it we </div>

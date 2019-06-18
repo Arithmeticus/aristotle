@@ -1,76 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns"
-       id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:object-refs-after-minio-paluello"
-       TAN-version="2018">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:object-refs-after-minio-paluello" TAN-version="2020">
    <head>
       <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Aristotle, Categories"/>
       <source>
          <IRI>http://id.lib.harvard.edu/aleph/002773288/catalog</IRI>
          <name>Logique d'Aristote: Traduite en français pour la première fois et accompagnée de
             notes perpétuelles par J. Barthélemy Saint-Hilaire. Paris : Ladrange, 1839-1844. </name>
       </source>
-      <key>
-         <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
          <name>General keywords associated with the Aristotle TAN collection</name>
-         <location when-accessed="2018-01-19T11:15:34.508-05:00"
-                   href="TAN-key/aristotle.TAN-key.xml"/>
-      </key>
-      <see-also relationship="model">
+         <location accessed-when="2018-01-19T11:15:34.508-05:00" href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <model>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
-                   when-accessed="2018-03-08-05:00"/>
-      </see-also>
-      <see-also relationship="ade">
+         <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml" accessed-when="2018-03-08-05:00"/>
+      </model>
+      <redivision>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello</IRI>
          <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
-         <location href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"
-                   when-accessed="2018-03-08-05:00"/>
-      </see-also>
-      <see-also relationship="ade">
+         <location href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml" accessed-when="2018-03-08-05:00"/>
+      </redivision>
+      <redivision>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs</IRI>
          <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
-         <location when-accessed="2018-01-27T13:42:58.638-05:00"
-                   href="ar.cat.fra.1844.saint-hilaire.ref-logical-native.xml"/>
-      </see-also>
+         <location accessed-when="2018-01-27T13:42:58.638-05:00" href="ar.cat.fra.1844.saint-hilaire.ref-logical-native.xml"/>
+      </redivision>
+      <adjustments>
+         <normalization which="no hyphens"/>
+      </adjustments>
 
-      <definitions>
+      <vocabulary-key>
          <div-type xml:id="p" which="page"/>
          <div-type which="column (page)" xml:id="c"/>
          <div-type which="line (physical)" xml:id="l"/>
          <div-type which="title" xml:id="ti"/>
-         
-         
-         
-         
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:remodel-via-tan-t</IRI>
             <name>Stylesheet to create a TAN file.</name>
-            <desc>Stylesheet at:
-               ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+            <location href="../../TAN-2020/applications/remodel/remodel%20via%20TAN-T.xsl" accessed-when="2018-08-30"/>
          </algorithm>
-         <work which="Aristotle, Categories"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet1" which="stylesheet"/>
-         <relationship xml:id="model" which="model"/>
-         <relationship which="resegmented copy" xml:id="ade"/>
-         <relationship which="old version" xml:id="prev"/>
-      </definitions>
-      
-      <alter>
-         <normalization which="no hyphens"/>
-      </alter>
-      <resp who="xslt1" roles="stylesheet1"/>
-      <resp who="xslt1" roles="stylesheet1"/>
-      <resp who="xslt1" roles="stylesheet1"/>
-      <resp who="xslt1" roles="stylesheet1"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp who="xslt1" roles="stylesheet"/>
       <resp roles="editor" who="kalvesmaki"/>
       <change who="xslt1" when="2018-03-09T16:37:59.93-05:00">Input from file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml proportionally remodeled after template at file:/C:/Users/jdkalv/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml</change>
       <change when="2018-03-07" who="kalvesmaki" flags="error">Fixed major blunder in segmentation.
@@ -95,6 +75,9 @@
          Aristotle collection.</change>
       <change when="2016-07-10" who="kalvesmaki">Began new file</change>
       <change who="xslt1" when="2018-03-08T14:47:29.64-05:00">Input from file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml proportionally remodeled after template at file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml</change>
+      <to-do>
+         <comment when="2018-03-09T16:37:59.93-05:00" who="xslt1">File needs to be checked.</comment>
+      </to-do>
       </head>
    <body xml:lang="fra">
       <div n="ti" type="ti">CATÉGORIES</div>

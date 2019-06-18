@@ -1,52 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns"
-       id="tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-logical-after-grc"
-       TAN-version="2018">
-    <head>
-        <name>Categories, Aristotle, Syriac text edited by Daniel King</name>
-        <license which="by_4.0"/>
-        <licensor who="kalvesmaki"/>
-       <source>
-          <IRI>http://lccn.loc.gov/2010039953</IRI>
-          <IRI>urn:isbn:9789004186606</IRI>
-          <name>The earliest Syriac translation of Aristotle's Categories text, translation, and
-             commentary</name>
-          <name>earliest Syriac translation of Aristotle's Categories</name>
-          <name>Categoriae. English &amp; Syriac</name>
-          <desc>by Daniel King. Includes bibliographical references and index. Categories
-             (Philosophy)</desc>
-       </source>
-        <key>
-            <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
-            <name>General keywords associated with the Aristotle TAN collection</name>
-            <location href="TAN-key/aristotle.TAN-key.xml"
-                   when-accessed="2018-01-19T11:15:34.508-05:00"/>
-        </key>
-      <see-also relationship="model">
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-logical-after-grc" TAN-version="2020">
+   <head>
+      <name>Categories, Aristotle, Syriac text edited by Daniel King</name>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Aristotle, Categories"/>
+      <source>
+         <IRI>http://lccn.loc.gov/2010039953</IRI>
+         <IRI>urn:isbn:9789004186606</IRI>
+         <name>The earliest Syriac translation of Aristotle's Categories text, translation, and
+            commentary</name>
+         <name>earliest Syriac translation of Aristotle's Categories</name>
+         <name>Categoriae. English &amp; Syriac</name>
+         <desc>by Daniel King. Includes bibliographical references and index. Categories
+            (Philosophy)</desc>
+      </source>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location href="TAN-voc/aristotle.TAN-voc.xml"
+            accessed-when="2018-01-19T11:15:34.508-05:00"/>
+      </vocabulary>
+      <model>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
          <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
-            when-accessed="2018-02-13-05:00"/>
-      </see-also>
-      <see-also relationship="ade">
+            accessed-when="2018-08-30"/>
+      </model>
+      <redivision>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-after-grc</IRI>
          <name>Categories, Aristotle, Syriac text edited by Daniel King</name>
          <location href="ar.cat.syr.2008.king.ref-scriptum-after-grc.xml"
-            when-accessed="2018-02-13-05:00"/>
-      </see-also>
-        <see-also relationship="ade">
-            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-native</IRI>
-            <name>Categories, Aristotle, Syriac text by Daniel King</name>
-            <location href="ar.cat.syr.2008.king.ref-scriptum-native.xml"
-                   when-accessed="2018-02-13T08:31:33.039-05:00"/>
-        </see-also>
-        <definitions>
+            accessed-when="2018-02-13-05:00"/>
+      </redivision>
+      <redivision>
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-native</IRI>
+         <name>Categories, Aristotle, Syriac text by Daniel King</name>
+         <location href="ar.cat.syr.2008.king.ref-scriptum-native.xml"
+            accessed-when="2018-02-13T08:31:33.039-05:00"/>
+      </redivision>
+
+      <adjustments>
+         <normalization which="no hyphens"/>
+      </adjustments>
+      <vocabulary-key>
          <algorithm xml:id="xslt1">
             <IRI>tag:textalign.net,2015:stylesheet:remodel-via-tan-t</IRI>
             <name>Stylesheet to create a TAN file.</name>
-            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+            <location href="../../TAN-2020/applications/remodel/remodel%20via%20TAN-T.xsl"
+               accessed-when="2018-08-30"/>
          </algorithm>
          <div-type xml:id="title" which="title"/>
          <div-type xml:id="ch" which="chapter"/>
@@ -54,29 +57,25 @@
          <div-type xml:id="s" which="sentence"/>
          <div-type which="independent clause" xml:id="ic"/>
          <div-type which="afterword" xml:id="afterword"/>
-            <work which="Aristotle, Categories"/>
-            
-            <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-            <role xml:id="editor" which="editor"/>
-            <role xml:id="stylesheet1" which="stylesheet"/>
-            
-            <relationship xml:id="ade" which="resegmented copy"/>
-         <relationship xml:id="model" which="model"/>
-        </definitions>
-        
-        <alter>
-            <normalization which="no hyphens"/>
-        </alter>
-        <resp who="xslt1" roles="stylesheet1"/>
-        <resp who="kalvesmaki" roles="editor"/>
-       <change when="2018-03-07" who="kalvesmaki" flags="error">Fixed major blunder in segmentation.
-          9.1-3 to 8.7-9 and 9.4 and 9.6 are out; 9.5 to 9.1 and 9.7 to 9.2. 9.2[olim 7].3 to 10.1.1
-          and renumber 10.1.1-2 by +1. </change>
-        <change when="2018-02-13" who="kalvesmaki">Started new file.</change>
-      <change who="xslt1" when="2018-02-13T20:56:59.192-05:00">Input from file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.syr.2008.king.ref-scriptum-after-grc.xml proporitionally inserted into template at file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="kalvesmaki" roles="editor"/>
+      <change when="2018-03-07" who="kalvesmaki" flags="error">Fixed major blunder in segmentation.
+         9.1-3 to 8.7-9 and 9.4 and 9.6 are out; 9.5 to 9.1 and 9.7 to 9.2. 9.2[olim 7].3 to 10.1.1
+         and renumber 10.1.1-2 by +1. </change>
+      <change when="2018-02-13" who="kalvesmaki">Started new file.</change>
+      <change who="xslt1" when="2018-02-13T20:56:59.192-05:00">Input from
+         file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.syr.2008.king.ref-scriptum-after-grc.xml
+         proporitionally inserted into template at
+         file:/Users/joelk/Dropbox/TAN/library-arithmeticus/aristotle/ar.cat.grc.1949.minio-paluello.ref-logical-native.xml</change>
       <change when="2018-02-15" who="kalvesmaki">Hand-corrected alignments on sentence
          level.</change>
-        </head>
+      <to-do>
+         <comment when="2018-03-07" who="kalvesmaki">File needs to be checked.</comment>
+      </to-do>
+   </head>
     <body xml:lang="syr">
       <div type="title" n="title">ܟܬܒܐ ܕܩܛܓܘܪ̈ܝܘܣ ܕܐܪܝܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ </div>
       <div type="ch" n="1">

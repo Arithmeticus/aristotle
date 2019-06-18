@@ -1,53 +1,720 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href ="../../TAN-2018/schemas/catalog.tan.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href ="../../TAN-2018/schemas/catalog.tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<collection stable="true">
+<?xml-model href ="../../TAN-2020/schemas/catalog.tan.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href ="../../TAN-2020/schemas/catalog.tan.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<collection stable="true" metadata-resolved="false">
    <doc href="ar.cat.eng.1926.edghill.ref-logical-after-grc.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="eng"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, English translation by E. M. Edghill</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://id.lib.harvard.edu/aleph/007901738/catalog</IRI>
+         <name>Aristotle: Categoriae &amp; De interpretatione by E.M. Edghill. Analytica priora / by
+            A.J. Jenkinson. Analytica posteriora / by G.R.G. Mure. Oxford : Clarendon Press, 1926.
+         </name>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+         <location accessed-when="2018-08-30"
+                   href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"/>
+      </model>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:model-object-refs</IRI>
+         <name>Categories, Aristotle, English translation by E. M. Edghill</name>
+         <location accessed-when="2019-05-10T04:39:58.413-04:00"
+                   href="ar.cat.eng.1926.edghill.ref-scriptum-after-grc.xml"
+                   orig-href="ar.cat.eng.1926.edghill.ref-scriptum-after-grc.xml"/>
+      </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
    <doc href="ar.cat.eng.1926.edghill.ref-scriptum-after-grc.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:model-object-refs"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="eng"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, English translation by E. M. Edghill</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://id.lib.harvard.edu/aleph/007901738/catalog</IRI>
+         <name>Aristotle: Categoriae &amp; De interpretatione by E.M. Edghill. Analytica priora / by
+            A.J. Jenkinson. Analytica posteriora / by G.R.G. Mure. Oxford : Clarendon Press, 1926.
+         </name>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+         <location accessed-when="2018-03-08-05:00"
+                   href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"/>
+      </model>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs</IRI>
+         <name>Categories, Aristotle, English translation by E. M. Edghill</name>
+         <location accessed-when="2018-03-08-05:00"
+                   href="ar.cat.eng.1926.edghill.ref-logical-after-grc.xml"
+                   orig-href="ar.cat.eng.1926.edghill.ref-logical-after-grc.xml"/>
+      </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
    <doc href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="fra"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://id.lib.harvard.edu/aleph/002773288/catalog</IRI>
+         <name>Logique d'Aristote: Traduite en français pour la première fois et accompagnée de
+            notes perpétuelles par J. Barthélemy Saint-Hilaire. Paris : Ladrange, 1839-1844. </name>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+         <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"/>
+      </model>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs</IRI>
+         <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+         <location accessed-when="2018-08-30"
+                   href="ar.cat.fra.1844.saint-hilaire.ref-logical-native.xml"
+                   orig-href="ar.cat.fra.1844.saint-hilaire.ref-logical-native.xml"/>
+      </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
    <doc href="ar.cat.fra.1844.saint-hilaire.ref-logical-native.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="fra"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://id.lib.harvard.edu/aleph/002773288/catalog</IRI>
+         <name>Logique d'Aristote: Traduite en français pour la première fois et accompagnée de
+            notes perpétuelles par J. Barthélemy Saint-Hilaire. Paris : Ladrange, 1839-1844. </name>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello</IRI>
+         <name>Realignment of Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+         <location accessed-when="2018-08-30"
+                   href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"
+                   orig-href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"/>
+      </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
    <doc href="ar.cat.fra.1844.saint-hilaire.ref-scriptum-after-grc.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:object-refs-after-minio-paluello"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="fra"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://id.lib.harvard.edu/aleph/002773288/catalog</IRI>
+         <name>Logique d'Aristote: Traduite en français pour la première fois et accompagnée de
+            notes perpétuelles par J. Barthélemy Saint-Hilaire. Paris : Ladrange, 1839-1844. </name>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+         <location accessed-when="2018-03-08-05:00"
+                   href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"/>
+      </model>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello</IRI>
+         <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+         <location accessed-when="2018-03-08-05:00"
+                   href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"
+                   orig-href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"/>
+      </redivision>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs</IRI>
+         <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+         <location accessed-when="2018-01-27T13:42:58.638-05:00"
+                   href="ar.cat.fra.1844.saint-hilaire.ref-logical-native.xml"
+                   orig-href="ar.cat.fra.1844.saint-hilaire.ref-logical-native.xml"/>
+      </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
    <doc href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, Greek text by Minio-Paluello</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://lccn.loc.gov/50036648</IRI>
+         <name>L. Minio-Paluello, Aristotelis categoriae et liber de interpretatione. Oxford, 1949</name>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello, object-based references</name>
+         <location accessed-when="2015-09-11-04:00"
+                   href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"/>
+      </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
    <doc href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, Greek text by Minio-Paluello</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+            <IRI>http://lccn.loc.gov/50036648</IRI>
+            <name>L. Minio-Paluello, Aristotelis categoriae et liber de interpretatione. Oxford,
+                1949 </name>
+        </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+            <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+            <name>General keywords associated with the Aristotle TAN collection</name>
+            <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+        </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
+            <name>Categories, Aristotle, Greek text by Minio-Paluello, semantic-based
+                references</name>
+            <location accessed-when="2018-08-23-05:00"
+                   href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"/>
+        </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+            <normalization which="no hyphens"/>
+        </adjustments>
+   </doc>
+   <doc href="ar.cat.grc.2002.bodëús.ref-scriptum-native.xml"
+        id="tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.2002.bodëús:object-refs"
+        TAN-version="2019"
+        xml:lang="grc"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, Greek text by Richard Bodëús</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+            <IRI>http://id.lib.harvard.edu/aleph/012009605/catalog</IRI>
+            <IRI>urn:isbn:9782251004976</IRI>
+            <name>Bodëús, Aristote Catégories, 
+                Paris: Belles lettres, 2002.</name>
+        </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+            <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+            <name>General keywords associated with the Aristotle TAN collection</name>
+            <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+        </vocabulary>
+   </doc>
    <doc href="ar.cat.lat.1961.minio-paluello.ref-logical-after-grc.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="lat"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, Latin translation by Boethius, first recension, edited by
+         Minio-Paluello</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://id.lib.harvard.edu/aleph/000987221/catalog</IRI>
+         <IRI>http://www.worldcat.org/oclc/912995321</IRI>
+         <name>Aristoteles latinus. 1. 1-5, Categoriae vel praedicamenta : translatio Boethii -
+            editio composita translatio Guillelmi de Moerbeka, lemmata e simplicii commentario
+            decerpta pseudo-Augustini paraphrasis themistiana</name>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+         <location accessed-when="2018-03-09"
+                   href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"/>
+      </model>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:object-refs</IRI>
+         <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
+         Minio-Paluello</name>
+         <location accessed-when="2018-01-27-05:00"
+                   href="ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml"
+                   orig-href="ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml"/>
+      </redivision>
+   </doc>
    <doc href="ar.cat.lat.1961.minio-paluello.ref-scriptum-after-grc.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:scriptum-refs-after-grc"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="lat"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, Latin translation by Boethius, first recension, edited by
+         Minio-Paluello</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://id.lib.harvard.edu/aleph/000987221/catalog</IRI>
+         <IRI>http://www.worldcat.org/oclc/912995321</IRI>
+         <name>Aristoteles latinus. 1. 1-5, Categoriae vel praedicamenta : translatio Boethii -
+            editio composita translatio Guillelmi de Moerbeka, lemmata e simplicii commentario
+            decerpta pseudo-Augustini paraphrasis themistiana</name>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+         <location accessed-when="2018-02-13-05:00"
+                   href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"/>
+      </model>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc</IRI>
+         <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
+         Minio-Paluello</name>
+         <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.lat.1961.minio-paluello.ref-logical-after-grc.xml"
+                   orig-href="ar.cat.lat.1961.minio-paluello.ref-logical-after-grc.xml"/>
+      </redivision>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:object-refs</IRI>
+         <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
+         Minio-Paluello</name>
+         <location accessed-when="2018-01-27-05:00"
+                   href="ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml"
+                   orig-href="ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml"/>
+      </redivision>
+   </doc>
    <doc href="ar.cat.lat.1961.minio-paluello.ref-scriptum-native.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:object-refs"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="lat"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, Latin translation by Boethius, first recension, edited by
+         Minio-Paluello</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://id.lib.harvard.edu/aleph/000987221/catalog</IRI>
+         <IRI>http://www.worldcat.org/oclc/912995321</IRI>
+         <name>Aristoteles latinus. 1. 1-5, Categoriae vel praedicamenta : translatio Boethii -
+            editio composita translatio Guillelmi de Moerbeka, lemmata e simplicii commentario
+            decerpta pseudo-Augustini paraphrasis themistiana</name>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+   </doc>
    <doc href="ar.cat.syr.2008.king.ref-logical-after-grc.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-logical-after-grc"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="syr"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, Syriac text edited by Daniel King</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://lccn.loc.gov/2010039953</IRI>
+         <IRI>urn:isbn:9789004186606</IRI>
+         <name>The earliest Syriac translation of Aristotle's Categories text, translation, and
+            commentary</name>
+         <name>earliest Syriac translation of Aristotle's Categories</name>
+         <name>Categoriae. English &amp; Syriac</name>
+         <desc>by Daniel King. Includes bibliographical references and index. Categories
+            (Philosophy)</desc>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <model xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+         <location accessed-when="2018-08-30"
+                   href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"/>
+      </model>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-after-grc</IRI>
+         <name>Categories, Aristotle, Syriac text edited by Daniel King</name>
+         <location accessed-when="2018-02-13-05:00"
+                   href="ar.cat.syr.2008.king.ref-scriptum-after-grc.xml"
+                   orig-href="ar.cat.syr.2008.king.ref-scriptum-after-grc.xml"/>
+      </redivision>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-native</IRI>
+         <name>Categories, Aristotle, Syriac text by Daniel King</name>
+         <location accessed-when="2018-02-13T08:31:33.039-05:00"
+                   href="ar.cat.syr.2008.king.ref-scriptum-native.xml"
+                   orig-href="ar.cat.syr.2008.king.ref-scriptum-native.xml"/>
+      </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
    <doc href="ar.cat.syr.2008.king.ref-scriptum-after-grc.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-after-grc"
-        root="TAN-T"/>
+        TAN-version="2019"
+        xml:lang="syr"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, Syriac text edited by Daniel King</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+          <IRI>http://lccn.loc.gov/2010039953</IRI>
+          <IRI>urn:isbn:9789004186606</IRI>
+          <name>The earliest Syriac translation of Aristotle's Categories text, translation, and
+             commentary</name>
+          <name>earliest Syriac translation of Aristotle's Categories</name>
+          <name>Categoriae. English &amp; Syriac</name>
+          <desc>by Daniel King. Includes bibliographical references and index. Categories
+             (Philosophy)</desc>
+       </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+            <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+            <name>General keywords associated with the Aristotle TAN collection</name>
+            <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+        </vocabulary>
+      <model xmlns="tag:textalign.net,2015:ns">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
+            <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+            <location accessed-when="2018-02-13T08:30:14.641-05:00"
+                   href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
+                   orig-href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"/>
+        </model>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-native</IRI>
+            <name>Categories, Aristotle, Syriac text by Daniel King</name>
+            <location accessed-when="2018-02-13T08:31:33.039-05:00"
+                   href="ar.cat.syr.2008.king.ref-scriptum-native.xml"
+                   orig-href="ar.cat.syr.2008.king.ref-scriptum-native.xml"/>
+        </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+            <normalization which="no hyphens"/>
+        </adjustments>
+   </doc>
    <doc href="ar.cat.syr.2008.king.ref-scriptum-native.xml"
         id="tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-native"
-        root="TAN-T"/>
-   <doc href="TAN-A-div/ar.cat.ref-logical-after-grc-1949.tan-a-div.xml"
+        TAN-version="2019"
+        xml:lang="syr"
+        root="TAN-T">
+      <name xmlns="tag:textalign.net,2015:ns">Categories, Aristotle, Syriac text edited by Daniel King</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <work xmlns="tag:textalign.net,2015:ns" which="Aristotle, Categories"/>
+      <source xmlns="tag:textalign.net,2015:ns">
+         <IRI>http://lccn.loc.gov/2010039953</IRI>
+         <IRI>urn:isbn:9789004186606</IRI>
+         <name>The earliest Syriac translation of Aristotle's Categories text, translation, and
+            commentary</name>
+         <name>earliest Syriac translation of Aristotle's Categories</name>
+         <name>Categoriae. English &amp; Syriac</name>
+         <desc>by Daniel King. Includes bibliographical references and index. Categories
+            (Philosophy)</desc>
+      </source>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <redivision xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-after-grc</IRI>
+         <name>Categories, Aristotle, Syriac text by Daniel King</name>
+         <location accessed-when="2018-02-13T08:21:14.977-05:00"
+                   href="ar.cat.syr.2008.king.ref-scriptum-after-grc.xml"
+                   orig-href="ar.cat.syr.2008.king.ref-scriptum-after-grc.xml"/>
+      </redivision>
+      <adjustments xmlns="tag:textalign.net,2015:ns">
+         <normalization which="no hyphens"/>
+      </adjustments>
+   </doc>
+   <doc href="TAN-A/ar.cat.ref-logical-after-grc-1949.tan-a.xml"
+        TAN-version="2019"
         id="tag:kalvesmaki.com,2014:tan-a-div:ar.cat:ref-logical-grc-1949"
-        root="TAN-A-div"/>
-   <doc href="TAN-A-div/ar.cat.tan-a-div.xml"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Aristotle's Categories</name>
+      <desc xmlns="tag:textalign.net,2015:ns">Numeration by chapter / paragraph / sentence, according to Minio-Paluello's 1949 edition</desc>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+            <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+            <name>General keywords associated with the Aristotle TAN collection</name>
+            <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="../TAN-voc/aristotle.TAN-voc.xml"/>
+        </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="grc">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
+            <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+            <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
+                   orig-href="../ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="lat">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:semantic-refs-after-grc</IRI>
+            <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
+                Minio-Paluello</name>
+            <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.lat.1961.minio-paluello.ref-logical-after-grc.xml"
+                   orig-href="../ar.cat.lat.1961.minio-paluello.ref-logical-after-grc.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="syr">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-logical-after-grc</IRI>
+            <name>Categories, Aristotle, Syriac text edited by Daniel King</name>
+            <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.syr.2008.king.ref-logical-after-grc.xml"
+                   orig-href="../ar.cat.syr.2008.king.ref-logical-after-grc.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="ara-badawi">
+            <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_007.ref-logical-after-grc-1949</IRI>
+            <name>Categoriae by Aristotle in ara published 1948</name>
+            <location accessed-when="2018-02-19T15:00:45.805-05:00"
+                   href="../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_007.tan-t.ref-logical-after-grc-1949.xml"
+                   orig-href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_007.tan-t.ref-logical-after-grc-1949.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="ara-zenker">
+            <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_008.ref-logical-after-grc-1949</IRI>
+            <name>Categoriae by Aristotle in ara published 1846</name>
+            <location accessed-when="2018-02-19T15:01:56.212-05:00"
+                   href="../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_008.tan-t.ref-logical-after-grc-1949.xml"
+                   orig-href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_008.tan-t.ref-logical-after-grc-1949.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="ara-georr">
+            <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_013.ref-logical-after-grc-1949</IRI>
+            <name>Categoriae by Aristotle in ara published 1948</name>
+            <location accessed-when="2018-02-19T15:02:03.082-05:00"
+                   href="../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_013.tan-t.ref-logical-after-grc-1949.xml"
+                   orig-href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_013.tan-t.ref-logical-after-grc-1949.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="eng">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs</IRI>
+            <name>Categories, Aristotle, English translation by E. M. Edghill</name>
+            <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.eng.1926.edghill.ref-logical-after-grc.xml"
+                   orig-href="../ar.cat.eng.1926.edghill.ref-logical-after-grc.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="fra">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello</IRI>
+            <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+            <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"
+                   orig-href="../ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"/>
+        </source>
+      <adjustments xmlns="tag:textalign.net,2015:ns" src="*">
+            <equate n="ti title head"/>
+        </adjustments>
+   </doc>
+   <doc href="TAN-A/ar.cat.ref-scriptum-after-grc-1949.tan-a.xml"
+        TAN-version="2019"
+        id="tag:kalvesmaki.com,2014:tan-a-div:ar.cat.ref-scriptum-after-grc-1949"
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Aristotle's Categories</name>
+      <desc xmlns="tag:textalign.net,2015:ns">Numeration by Bekker line numbers (as interpreted in Minio-Paluello's 1949 edition)</desc>
+      <license xmlns="tag:textalign.net,2015:ns" which="by_4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+            <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+            <name>General keywords associated with the Aristotle TAN collection</name>
+            <location accessed-when="2018-01-19T11:15:34.508-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="../TAN-voc/aristotle.TAN-voc.xml"/>
+        </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="grc">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
+            <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+            <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"
+                   orig-href="../ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="lat">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.lat.1961.a.minio-paluello:scriptum-refs-after-grc</IRI>
+            <name>Categories, Aristotle, Latin translation by Boethius, first recension, edited by
+                Minio-Paluello</name>
+            <location accessed-when="2018-02-19-05:00"
+                   href="ar.cat.lat.1961.minio-paluello.ref-scriptum-after-grc.xml"
+                   orig-href="../ar.cat.lat.1961.minio-paluello.ref-scriptum-after-grc.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="syr">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.syr.2010.king.ref-scriptum-after-grc</IRI>
+            <name>Categories, Aristotle, Syriac text edited by Daniel King</name>
+            <location accessed-when="2018-02-19-05:00"
+                   href="ar.cat.syr.2008.king.ref-scriptum-after-grc.xml"
+                   orig-href="../ar.cat.syr.2008.king.ref-scriptum-after-grc.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="ara-badawi">
+            <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_007.ref-scriptum-after-grc-1949</IRI>
+            <name>Categoriae by Aristotle in ara published 1948</name>
+            <location accessed-when="2018-02-19T16:48:00.034-05:00"
+                   href="../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_007.tan-t.ref-scriptum-after-grc-1949.xml"
+                   orig-href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_007.tan-t.ref-scriptum-after-grc-1949.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="ara-zenker">
+            <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_008.ref-scriptum-after-grc-1949</IRI>
+            <name>Categoriae by Aristotle in ara published 1846</name>
+            <location accessed-when="2018-02-19T16:48:06.898-05:00"
+                   href="../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_008.tan-t.ref-scriptum-after-grc-1949.xml"
+                   orig-href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_008.tan-t.ref-scriptum-after-grc-1949.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="ara-georr">
+            <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_013.ref-scriptum-after-grc-1949</IRI>
+            <name>Categoriae by Aristotle in ara published 1948</name>
+            <location accessed-when="2018-02-19T16:48:15.447-05:00"
+                   href="../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_013.tan-t.ref-scriptum-after-grc-1949.xml"
+                   orig-href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_013.tan-t.ref-scriptum-after-grc-1949.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="eng">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:model-object-refs</IRI>
+            <name>Categories, Aristotle, English translation by E. M. Edghill</name>
+            <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.eng.1926.edghill.ref-scriptum-after-grc.xml"
+                   orig-href="../ar.cat.eng.1926.edghill.ref-scriptum-after-grc.xml"/>
+        </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="fra">
+            <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:object-refs-after-minio-paluello</IRI>
+            <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+            <location accessed-when="2018-03-09-05:00"
+                   href="ar.cat.fra.1844.saint-hilaire.ref-scriptum-after-grc.xml"
+                   orig-href="../ar.cat.fra.1844.saint-hilaire.ref-scriptum-after-grc.xml"/>
+        </source>
+      <adjustments xmlns="tag:textalign.net,2015:ns" src="*">
+            <equate n="ti title head"/>
+        </adjustments>
+   </doc>
+   <doc href="TAN-A/ar.cat.tan-a.xml"
+        TAN-version="2019"
         id="tag:kalvesmaki.com,2014:tan-a-div:ar:cat"
-        root="TAN-A-div"/>
-   <doc href="TAN-key/aristotle.TAN-key.xml"
-        id="tag:kalvesmaki.com,2014:tan-key:aristotle"
-        root="TAN-key"/>
+        root="TAN-A">
+      <name xmlns="tag:textalign.net,2015:ns">Alignment and annotations of Aristotle's Categories</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by 4.0" licensor="kalvesmaki"/>
+      <vocabulary xmlns="tag:textalign.net,2015:ns">
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location accessed-when="2018-02-10T14:34:25.24-05:00"
+                   href="TAN-voc/aristotle.TAN-voc.xml"
+                   orig-href="../TAN-voc/aristotle.TAN-voc.xml"/>
+      </vocabulary>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="grc">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+         <location accessed-when="2018-08-30"
+                   href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
+                   orig-href="../ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"/>
+      </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="fra">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello</IRI>
+         <name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name>
+         <location accessed-when="2018-08-30"
+                   href="ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"
+                   orig-href="../ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml"/>
+      </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="ara1">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_007.ref-logical-native</IRI>
+         <name>Categoriae by Aristotle in ara published 1948</name>
+         <location accessed-when="2018-02-10T14:39:22.825-05:00"
+                   href="../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_007.tan-t.ref-logical-native.xml"
+                   orig-href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_007.tan-t.ref-logical-native.xml"/>
+      </source>
+      <source xmlns="tag:textalign.net,2015:ns" xml:id="ara3">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_013.ref-logical-native</IRI>
+         <name>Categoriae by Aristotle in ara published 1948</name>
+         <location accessed-when="2018-02-10T14:40:32.594-05:00"
+                   href="../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_013.tan-t.ref-logical-native.xml"
+                   orig-href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_013.tan-t.ref-logical-native.xml"/>
+      </source>
+   </doc>
+   <doc href="TAN-voc/aristotle.TAN-voc.xml"
+        id="tag:kalvesmaki.com,2014:tan-voc:aristotle"
+        TAN-version="2019"
+        affects-element="person"
+        root="TAN-voc">
+      <name xmlns="tag:textalign.net,2015:ns">General keywords associated with the Aristotle TAN collection</name>
+      <license xmlns="tag:textalign.net,2015:ns" which="by 4.0" licensor="kalvesmaki"/>
+   </doc>
 </collection>

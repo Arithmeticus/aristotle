@@ -1,64 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<TAN-T xmlns="tag:textalign.net,2015:ns"
-       id="tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs"
-       TAN-version="2018">
+<?xml-model href="../../TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2020/schemas/TAN-T.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs" TAN-version="2020">
    <head>
       <name>Categories, Aristotle, English translation by E. M. Edghill</name>
-      <license which="by_4.0"/>
-      <licensor who="kalvesmaki"/>
+      <license which="by_4.0" licensor="kalvesmaki"/>
+      <work which="Aristotle, Categories"/>
       <source>
          <IRI>http://id.lib.harvard.edu/aleph/007901738/catalog</IRI>
          <name>Aristotle: Categoriae &amp; De interpretatione by E.M. Edghill. Analytica priora / by
             A.J. Jenkinson. Analytica posteriora / by G.R.G. Mure. Oxford : Clarendon Press, 1926.
          </name>
       </source>
-      <key>
-         <IRI>tag:kalvesmaki.com,2014:tan-key:aristotle</IRI>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
          <name>General keywords associated with the Aristotle TAN collection</name>
-         <location href="TAN-key/aristotle.TAN-key.xml"
-                   when-accessed="2018-01-19T11:15:34.508-05:00"/>
-      </key>
-      <see-also relationship="model">
+         <location href="TAN-voc/aristotle.TAN-voc.xml" accessed-when="2018-01-19T11:15:34.508-05:00"/>
+      </vocabulary>
+      <model>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
          <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml" when-accessed="2018-01-22-05:00"/></see-also>
-      <!--<see-also relationship="alt">
-         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
-         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
-         <location href="ar.cat.grc.1949.minio-paluello.ref-scriptum-native.xml" when-accessed="2018-01-23-05:00"/></see-also>-->
-      <!--<see-also relationship="ade">
+         <location href="ar.cat.grc.1949.minio-paluello.ref-logical-native.xml"
+            accessed-when="2018-08-30"/>
+      </model>
+      <redivision>
          <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:model-object-refs</IRI>
          <name>Categories, Aristotle, English translation by E. M. Edghill</name>
-         <location href="ar.cat.eng.1926.edghill.ref-scriptum-after-grc.xml" when-accessed="2018-01-23-05:00"/></see-also>-->
-      <!--<see-also relationship="prev">
-         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.eng.1926.edghill:semantic-refs</IRI>
-         <name>Categories, Aristotle, English translation by E. M. Edghill</name>
-         <location href="http://textalign.net/release/TAN-2018/examples/ar.cat.eng.1926.edghill.sem"
-                   when-accessed="2018-01-19-05:00"/>
-      </see-also>-->
-      <definitions>
-         <work which="Aristotle, Categories"/>
+         <location accessed-when="2019-05-10T04:39:58.413-04:00" href="ar.cat.eng.1926.edghill.ref-scriptum-after-grc.xml"/>
+      </redivision>
+      <adjustments>
+         <normalization which="no hyphens"/>
+      </adjustments>
+      <vocabulary-key>
          <div-type xml:id="ch" which="chapter"/>
          <div-type xml:id="par" which="paragraph"/>
          <div-type xml:id="s" which="sentence"/>
          <div-type xml:id="ic" which="independent clause"/>
          <div-type xml:id="pt" which="part"/>
          <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-         
-         <role xml:id="editor" which="editor"/>
-         <role xml:id="stylesheet1" which="stylesheet"/>
-         <relationship which="model" xml:id="model"/>
-         <relationship which="alternatively divided edition" xml:id="ade"/>
-         <relationship which="different work version" xml:id="alt"/>
-         <relationship which="old version" xml:id="prev"/>
-      </definitions>
-      <alter>
-         <normalization which="no hyphens"/>
-      </alter>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
       <resp roles="editor" who="kalvesmaki"/>
       <change when="2018-03-07" who="kalvesmaki" flags="error">Fixed major blunder in segmentation.
          9.1-3 to 8.7-9 and 9.4 and 9.6 are out; 9.5 to 9.1 and 9.7 to 9.2. 9.2[olim 7].3 to 10.1.1
@@ -66,8 +49,12 @@
       <change when="2018-01-19-05:00" who="kalvesmaki">Copied from official examples to begin new Aristotle collection.</change>
       <change when="2016-06-22T08:04:25.003-04:00" who="kalvesmaki">Reformatted according to first
          model found. Backup made at
-         file:/C:/Users/jdkalv/Dropbox/TAN/library/TAN-2018/examples/ar.cat.eng.1926.edghill.ref-logical-201606220804250030400.xml.</change>
+         file:/C:/Users/jdkalv/Dropbox/TAN/library/TAN-2020/examples/ar.cat.eng.1926.edghill.ref-logical-201606220804250030400.xml.</change>
+      <change when="2019-05-06" who="kalvesmaki">At 7.3.2.4 removed division into parts</change>
       <change when="2016-01-26-04:00" who="kalvesmaki">Started new file.</change>
+      <to-do>
+         <comment when="2018-03-07" who="kalvesmaki">File needs to be checked.</comment>
+      </to-do>
       
    </head>
    <body xml:lang="eng">
@@ -907,14 +894,10 @@
                   the connexion between these two will not be reciprocal,</div>
                <div type="ic" n="3">for it will not be possible to say that a bird is a bird by
                   reason of its wings.</div>
-               <div type="ic" n="4">
-                  <div type="pt" n="a">The reason is that the original statement was inaccurate, for
-                     the wing is not said to be relative to the bird qua bird,</div>
-               </div>
+               <div type="ic" n="4"> The reason is that the original statement was inaccurate, for
+                  the wing is not said to be relative to the bird qua bird, </div>
                <div type="ic" n="5">since many creatures besides birds have wings,</div>
-               <div type="ic" n="4">
-                  <div type="pt" n="b">but qua winged creature.</div>
-               </div>
+               <div type="ic" n="4"> but qua winged creature. </div>
                <div type="ic" n="6">If, then, the statement is made accurate, the connexion will be
                   reciprocal, for we can speak of a wing, having reference necessarily to a winged
                   creature, and of a winged creature as being such because of its wings.</div>
@@ -965,8 +948,7 @@
                   acknowledged correlatives, and where names exist for each, there will be no
                   interdependence if one of the two is denoted, not by that name which expresses the
                   correlative notion, but by one of irrelevant significance.</div>
-               <div type="ic" n="2">The term 'slave,' if defined as related, not to a master, but to
-                  a man, or a biped, or anything of that sort,</div>
+               <div type="ic" n="2">The term 'slave,' if defined as related, not to a master, but to a man, or a biped, or anything of that sort,</div>
                <div type="ic" n="3">is not reciprocally connected with that in relation to which it
                   is defined, for the statement is not exact.</div>
             </div>
