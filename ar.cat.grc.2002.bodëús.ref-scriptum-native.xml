@@ -6,6 +6,7 @@
 <TAN-T xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.2002.bodëús:object-refs" TAN-version="2020">
     <head>
         <name>Categories, Aristotle, Greek text by Richard Bodëús</name>
+        <master-location href="https://raw.githubusercontent.com/Arithmeticus/TAN-Aristotle/master/ar.cat.grc.2002.bodëús.ref-scriptum-native.xml"/>
         <license which="by_4.0" licensor="kalvesmaki"/>
         <work which="Aristotle, Categories"/>
         <source>

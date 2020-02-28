@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" TAN-version="2020" id="tag:kalvesmaki.com,2014:tan-a-div:ar:cat">
+   <head>
+      <name>Alignment and annotations of Aristotle's Categories</name>
+      <license which="by 4.0" licensor="kalvesmaki"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki.com,2014:tan-voc:aristotle</IRI>
+         <name>General keywords associated with the Aristotle TAN collection</name>
+         <location href="../TAN-voc/aristotle.TAN-voc.xml" accessed-when="2018-02-10T14:34:25.24-05:00"/>
+      </vocabulary>
+      <source xml:id="grc">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:semantic-refs</IRI>
+         <name>Categories, Aristotle, Greek text by Minio-Paluello</name>
+         <location href="../ar.cat.grc.1949.minio-paluello.ref-logical-native.xml" accessed-when="2018-08-30"/>
+      </source>
+      <source xml:id="fra"><IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.fra.1844.saint-hilaire:semantic-refs-after-minio-paluello</IRI><name>Categories, Aristotle, French translation by J. Barthélemy Saint-Hilaire</name><location href="../ar.cat.fra.1844.saint-hilaire.ref-logical-after-grc.xml" accessed-when="2018-08-30"/></source>
+      <source xml:id="ara1"><IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_007.ref-logical-native</IRI><name>Categoriae by Aristotle in ara published 1948</name><location href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_007.tan-t.ref-logical-native.xml" accessed-when="2018-02-10T14:39:22.825-05:00"/></source>
+      <!--<source xml:id="ara2"><IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_008.ref-logical-native</IRI><name>Categoriae by Aristotle in ara published 1846</name><location href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_008.tan-t.ref-logical-native.xml" when-accessed="2018-02-10T14:39:34.743-05:00"/></source>-->
+      <source xml:id="ara3"><IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_013.ref-logical-native</IRI><name>Categoriae by Aristotle in ara published 1948</name><location href="../../../pre-TAN/graeco%20arabic%20studies/tan/Arist-Ar_013.tan-t.ref-logical-native.xml" accessed-when="2018-02-10T14:40:32.594-05:00"/></source>
+      <vocabulary-key>
+         <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
+         <role xml:id="editor" which="editor"/>
+      </vocabulary-key>
+      <file-resp who="kalvesmaki"/>
+      <resp roles="editor" who="kalvesmaki"/>
+      <change when="2018-02-10" who="kalvesmaki">Started file</change>
+      <to-do>
+         <comment when="2018-02-10" who="kalvesmaki">File needs to be checked.</comment>
+      </to-do>
+   </head>
+   <body/>
+</TAN-A>
