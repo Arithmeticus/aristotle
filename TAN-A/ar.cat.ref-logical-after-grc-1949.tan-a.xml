@@ -61,9 +61,7 @@
                 <name>Stylesheet to create a TAN file.</name>
                 <location href="../../../TAN-2020/applications/create/create%20TAN-A.xsl" accessed-when="2018-02-17"/>
             </algorithm>
-            <role xml:id="stylesheet" which="stylesheet"/>
             <person xml:id="kalvesmaki" which="Joel Kalvesmaki"/>
-            <role which="editor" xml:id="editor"/>
         </vocabulary-key>
         <file-resp who="kalvesmaki"/>
         <resp who="xslt1" roles="stylesheet"/>
